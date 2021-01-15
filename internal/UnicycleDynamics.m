@@ -72,19 +72,28 @@ end
 if write_csv
     
     matrix_write = [t SOLN' pathXYZ'];
-    %writematrix(matrix_write(end, :)', outname, 'WriteMode', 'overwrite')
-    writematrix(matrix_write(end, :)', outname)
+    % Leave this line commented if you are using R2019
+    writematrix(matrix_write(end, :)', outname, 'WriteMode', 'overwrite')
+    
+    % Leave this line commented if you are using R2020
+    %writematrix(matrix_write(end, :)', outname)
 
 
     if toppled
         %row of zeros indicates toppled unicycle
-        %writematrix(zeros(1,16)', outname, 'WriteMode', 'overwrite')
-        writematrix(zeros(1,16)', outname)
+        % Leave this line commented if you are using R2019
+        writematrix(zeros(1,16)', outname, 'WriteMode', 'overwrite')
+        
+        % Leave this line commented if you are using R2020
+        %writematrix(zeros(1,16)', outname)
     end
     
     %writing history file
-    %writematrix(matrix_write, histname, 'WriteMode', 'append')
-    writematrix(matrix_write, histname)
+    % Leave this line commented if you are using R2019
+    writematrix(matrix_write, histname, 'WriteMode', 'append')
+    
+    % Leave this line commented if you are using R2020
+    %writematrix(matrix_write, histname)
     
     %writing log file
     fid = fopen(logname, "a");    
