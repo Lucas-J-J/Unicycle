@@ -72,43 +72,18 @@ end
 if write_csv
     
     matrix_write = [t SOLN' pathXYZ'];
-    % Leave this line commented if you are using R2019
-    %writematrix(matrix_write(end, :)', outname, 'WriteMode', 'overwrite')
-    
-    % Leave this line commented if you are using R2020
-    writematrix(matrix_write(end, :)', outname)
+    writematrix(matrix_write(end, :)', outname, 'WriteMode', 'overwrite')
 
 
     if toppled
         %row of zeros indicates toppled unicycle
-        % Leave this line commented if you are using R2019
-        %writematrix(zeros(1,16)', outname, 'WriteMode', 'overwrite')
-        
-        % Leave this line commented if you are using R2020
-        writematrix(zeros(1,16)', outname)
+        writematrix(zeros(1,16)', outname, 'WriteMode', 'overwrite')
     end
     
     %writing history file
-    % Leave this line commented if you are using R2019
-    %writematrix(matrix_write, histname, 'WriteMode', 'append')
-    
-    % Leave this line commented if you are using R2020
-    [r, c] = size(matrix_write);
-    fid = fopen(histname, "a");
-    for i=1: r
-        for j=1: c
-            fprintf(fid, "%0.15f", matrix_write(i, j));
-            if j == c
-                fprintf(fid, "\n");
-            else
-                fprintf(fid, ",");
-            end
-        end
-    end
-    fclose(fid);
-    %writematrix(matrix_write, histname)
-    
-    %writing log file 
+    writematrix(matrix_write, histname, 'WriteMode', 'append')
+
+    %writing log file
     fid = fopen(logname, "a");    
     fprintf(fid, "\t\t\tTimestep %d\n\n", t_step);
     fprintf(fid, "Start time = %.4f\tEnd time = %.4f\n", t_start, t_end);

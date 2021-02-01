@@ -1,18 +1,18 @@
 UNICYCLE DIGITAL TWIN
-Run started at 15/01/21-15:32
+Run started at 30/01/21-11:29
 
 Geometry is:
-	g.m 	=	2.948000;
+	g.m 	=	2.000000;
 	g.Ro	=	0.101600;
-	g.Ip	=	0.007849;
-	g.Ip	=	0.014950;
-	g.mf	=	2.326000;
-	g.Ib	=	0.007289;
-	g.If	=	0.044500;
-	g.lf	=	0.252300;
-	g.l 	=	0.511900;
-	g.W 	=	28.919880;
-	g.Wf	=	22.818060;
+	g.Ip	=	0.005690;
+	g.Ip	=	0.010100;
+	g.mf	=	20.735000;
+	g.Ib	=	0.415800;
+	g.If	=	0.365100;
+	g.lf	=	0.356900;
+	g.l 	=	0.533400;
+	g.W 	=	19.620000;
+	g.Wf	=	203.410350;
 	g.Wr	=	0.000000;
 
 Initial torques are:
@@ -23,7 +23,7 @@ Initial torques are:
 
 Timing settings are:
 	start at 0.0000
-	finish at 1.2000
+	finish at 1.5000
 	sampling time is 0.0100
 
 Starting run
@@ -41,18 +41,18 @@ Torque input is:
 
 At the last timestep, the solution is 
 	t	=	0.0100
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	0.0000
-	theta''	=	0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0000
-	alpha''	=	0.0000
-	psi	=	0.0100
-	psi'	=	1.0000
-	psi''	=	-0.0000
+	phi	=	0.0500
+	phi'	=	0.0007
+	phi''	=	0.0725
+	theta	=	1.5300
+	theta'	=	-0.0062
+	theta''	=	-0.6231
+	alpha	=	1.5298
+	alpha'	=	-0.0423
+	alpha''	=	-4.2452
+	psi	=	0.0506
+	psi'	=	0.1299
+	psi''	=	13.0292
 
 
 
@@ -61,25 +61,25 @@ At the last timestep, the solution is
 Start time = 0.0100	End time = 0.0200
 
 Torque input is:
-	T	=	0.2000
+	T	=	0.0000
 	SF	=	0.0000
-	RF	=	-0.0000
+	RF	=	0.0000
 	LF	=	0.0000
 
 At the last timestep, the solution is 
 	t	=	0.0200
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	0.0122
-	alpha''	=	1.2181
-	psi	=	0.0198
-	psi'	=	0.9607
-	psi''	=	-3.9289
+	phi	=	0.0500
+	phi'	=	0.0015
+	phi''	=	0.0745
+	theta	=	1.5299
+	theta'	=	-0.0125
+	theta''	=	-0.6245
+	alpha	=	1.5292
+	alpha'	=	-0.0851
+	alpha''	=	-4.3078
+	psi	=	0.0526
+	psi'	=	0.2611
+	psi''	=	13.2201
 
 
 
@@ -88,25 +88,25 @@ At the last timestep, the solution is
 Start time = 0.0200	End time = 0.0300
 
 Torque input is:
-	T	=	1.3988
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0225
+	T	=	2.6092
+	SF	=	0.3762
+	RF	=	1.9195
+	LF	=	-2.1683
 
 At the last timestep, the solution is 
 	t	=	0.0300
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5714
-	alpha'	=	0.0957
-	alpha''	=	8.3675
-	psi	=	0.0280
-	psi'	=	0.6874
-	psi''	=	-27.3478
+	phi	=	0.0500
+	phi'	=	-0.0093
+	phi''	=	-1.0735
+	theta	=	1.5297
+	theta'	=	-0.0150
+	theta''	=	-0.2556
+	alpha	=	1.5288
+	alpha'	=	0.0172
+	alpha''	=	10.2220
+	psi	=	0.0531
+	psi'	=	-0.1585
+	psi''	=	-41.9328
 
 
 
@@ -115,25 +115,25 @@ At the last timestep, the solution is
 Start time = 0.0300	End time = 0.0400
 
 Torque input is:
-	T	=	1.4328
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.2014
+	T	=	2.5986
+	SF	=	0.4460
+	RF	=	2.0252
+	LF	=	-2.1494
 
 At the last timestep, the solution is 
 	t	=	0.0400
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5727
-	alpha'	=	0.1691
-	alpha''	=	7.3621
-	psi	=	0.0336
-	psi'	=	0.4178
-	psi''	=	-26.9737
+	phi	=	0.0498
+	phi'	=	-0.0217
+	phi''	=	-1.2439
+	theta	=	1.5296
+	theta'	=	-0.0174
+	theta''	=	-0.2396
+	alpha	=	1.5295
+	alpha'	=	0.1191
+	alpha''	=	10.2265
+	psi	=	0.0494
+	psi'	=	-0.5761
+	psi''	=	-41.8825
 
 
 
@@ -142,25 +142,25 @@ At the last timestep, the solution is
 Start time = 0.0400	End time = 0.0500
 
 Torque input is:
-	T	=	1.3011
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.5048
+	T	=	2.1234
+	SF	=	0.5082
+	RF	=	2.1250
+	LF	=	-1.7961
 
 At the last timestep, the solution is 
 	t	=	0.0500
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5746
-	alpha'	=	0.2136
-	alpha''	=	4.4927
-	psi	=	0.0366
-	psi'	=	0.1921
-	psi''	=	-22.6099
+	phi	=	0.0495
+	phi'	=	-0.0353
+	phi''	=	-1.3606
+	theta	=	1.5294
+	theta'	=	-0.0196
+	theta''	=	-0.2220
+	alpha	=	1.5311
+	alpha'	=	0.1964
+	alpha''	=	7.8153
+	psi	=	0.0421
+	psi'	=	-0.8986
+	psi''	=	-32.5195
 
 
 
@@ -169,25 +169,25 @@ At the last timestep, the solution is
 Start time = 0.0500	End time = 0.0600
 
 Torque input is:
-	T	=	1.1427
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.7548
+	T	=	1.4952
+	SF	=	0.5672
+	RF	=	2.2261
+	LF	=	-1.4449
 
 At the last timestep, the solution is 
 	t	=	0.0600
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5769
-	alpha'	=	0.2317
-	alpha''	=	1.8499
-	psi	=	0.0376
-	psi'	=	0.0119
-	psi''	=	-18.0571
+	phi	=	0.0491
+	phi'	=	-0.0498
+	phi''	=	-1.4565
+	theta	=	1.5292
+	theta'	=	-0.0217
+	theta''	=	-0.2027
+	alpha	=	1.5333
+	alpha'	=	0.2432
+	alpha''	=	4.7859
+	psi	=	0.0321
+	psi'	=	-1.1017
+	psi''	=	-20.6317
 
 
 
@@ -196,25 +196,25 @@ At the last timestep, the solution is
 Start time = 0.0600	End time = 0.0700
 
 Torque input is:
-	T	=	0.9848
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.9175
+	T	=	0.8027
+	SF	=	0.6227
+	RF	=	2.3282
+	LF	=	-1.1637
 
 At the last timestep, the solution is 
 	t	=	0.0700
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5792
-	alpha'	=	0.2296
-	alpha''	=	-0.1697
-	psi	=	0.0371
-	psi'	=	-0.1282
-	psi''	=	-14.0462
+	phi	=	0.0485
+	phi'	=	-0.0652
+	phi''	=	-1.5373
+	theta	=	1.5290
+	theta'	=	-0.0235
+	theta''	=	-0.1826
+	alpha	=	1.5358
+	alpha'	=	0.2581
+	alpha''	=	1.6113
+	psi	=	0.0207
+	psi'	=	-1.1785
+	psi''	=	-8.0328
 
 
 
@@ -223,25 +223,25 @@ At the last timestep, the solution is
 Start time = 0.0700	End time = 0.0800
 
 Torque input is:
-	T	=	0.8325
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	1.0031
+	T	=	0.1101
+	SF	=	0.6739
+	RF	=	2.4315
+	LF	=	-0.9797
 
 At the last timestep, the solution is 
 	t	=	0.0800
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5814
-	alpha'	=	0.2131
-	alpha''	=	-1.6085
-	psi	=	0.0352
-	psi'	=	-0.2340
-	psi''	=	-10.6147
+	phi	=	0.0478
+	phi'	=	-0.0813
+	phi''	=	-1.6061
+	theta	=	1.5287
+	theta'	=	-0.0251
+	theta''	=	-0.1630
+	alpha	=	1.5383
+	alpha'	=	0.2427
+	alpha''	=	-1.4188
+	psi	=	0.0091
+	psi'	=	-1.1334
+	psi''	=	4.1259
 
 
 
@@ -250,25 +250,25 @@ At the last timestep, the solution is
 Start time = 0.0800	End time = 0.0900
 
 Torque input is:
-	T	=	0.6866
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	1.0286
+	T	=	-0.5216
+	SF	=	0.7204
+	RF	=	2.5358
+	LF	=	-0.9081
 
 At the last timestep, the solution is 
 	t	=	0.0900
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5834
-	alpha'	=	0.1868
-	alpha''	=	-2.5961
-	psi	=	0.0325
-	psi'	=	-0.3104
-	psi''	=	-7.6642
+	phi	=	0.0469
+	phi'	=	-0.0979
+	phi''	=	-1.6663
+	theta	=	1.5285
+	theta'	=	-0.0266
+	theta''	=	-0.1450
+	alpha	=	1.5405
+	alpha'	=	0.2010
+	alpha''	=	-4.0716
+	psi	=	-0.0014
+	psi'	=	-0.9816
+	psi''	=	14.8777
 
 
 
@@ -277,25 +277,25 @@ At the last timestep, the solution is
 Start time = 0.0900	End time = 0.1000
 
 Torque input is:
-	T	=	0.5479
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	1.0089
+	T	=	-1.0375
+	SF	=	0.7614
+	RF	=	2.6412
+	LF	=	-0.9539
 
 At the last timestep, the solution is 
 	t	=	0.1000
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5851
-	alpha'	=	0.1542
-	alpha''	=	-3.2301
-	psi	=	0.0292
-	psi'	=	-0.3613
-	psi''	=	-5.1200
+	phi	=	0.0458
+	phi'	=	-0.1152
+	phi''	=	-1.7209
+	theta	=	1.5282
+	theta'	=	-0.0279
+	theta''	=	-0.1296
+	alpha	=	1.5422
+	alpha'	=	0.1393
+	alpha''	=	-6.0948
+	psi	=	-0.0101
+	psi'	=	-0.7471
+	psi''	=	23.2217
 
 
 
@@ -304,25 +304,25 @@ At the last timestep, the solution is
 Start time = 0.1000	End time = 0.1100
 
 Torque input is:
-	T	=	0.4173
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.9559
+	T	=	-1.3936
+	SF	=	0.7961
+	RF	=	2.7478
+	LF	=	-1.1124
 
 At the last timestep, the solution is 
 	t	=	0.1100
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5864
-	alpha'	=	0.1180
-	alpha''	=	-3.5925
-	psi	=	0.0254
-	psi'	=	-0.3904
-	psi''	=	-2.9270
+	phi	=	0.0446
+	phi'	=	-0.1329
+	phi''	=	-1.7722
+	theta	=	1.5279
+	theta'	=	-0.0290
+	theta''	=	-0.1174
+	alpha	=	1.5432
+	alpha'	=	0.0656
+	alpha''	=	-7.3235
+	psi	=	-0.0161
+	psi'	=	-0.4611
+	psi''	=	28.4700
 
 
 
@@ -331,25 +331,25 @@ At the last timestep, the solution is
 Start time = 0.1100	End time = 0.1200
 
 Torque input is:
-	T	=	0.2962
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.8787
+	T	=	-1.5627
+	SF	=	0.8237
+	RF	=	2.8556
+	LF	=	-1.3682
 
 At the last timestep, the solution is 
 	t	=	0.1200
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5874
-	alpha'	=	0.0804
-	alpha''	=	-3.7412
-	psi	=	0.0215
-	psi'	=	-0.4008
-	psi''	=	-1.0543
+	phi	=	0.0432
+	phi'	=	-0.1511
+	phi''	=	-1.8213
+	theta	=	1.5276
+	theta'	=	-0.0300
+	theta''	=	-0.1076
+	alpha	=	1.5435
+	alpha'	=	-0.0111
+	alpha''	=	-7.6678
+	psi	=	-0.0192
+	psi'	=	-0.1585
+	psi''	=	30.2341
 
 
 
@@ -358,25 +358,25 @@ At the last timestep, the solution is
 Start time = 0.1200	End time = 0.1300
 
 Torque input is:
-	T	=	0.1859
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.7847
+	T	=	-1.5375
+	SF	=	0.8434
+	RF	=	2.9647
+	LF	=	-1.6973
 
 At the last timestep, the solution is 
 	t	=	0.1300
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5880
-	alpha'	=	0.0431
-	alpha''	=	-3.7190
-	psi	=	0.0175
-	psi'	=	-0.3955
-	psi''	=	0.5157
+	phi	=	0.0416
+	phi'	=	-0.1698
+	phi''	=	-1.8675
+	theta	=	1.5273
+	theta'	=	-0.0309
+	theta''	=	-0.1000
+	alpha	=	1.5430
+	alpha'	=	-0.0822
+	alpha''	=	-7.1267
+	psi	=	-0.0194
+	psi'	=	0.1255
+	psi''	=	28.4802
 
 
 
@@ -385,25 +385,25 @@ At the last timestep, the solution is
 Start time = 0.1300	End time = 0.1400
 
 Torque input is:
-	T	=	0.0877
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.6797
+	T	=	-1.3321
+	SF	=	0.8542
+	RF	=	3.0752
+	LF	=	-2.0688
 
 At the last timestep, the solution is 
 	t	=	0.1400
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5883
-	alpha'	=	0.0074
-	alpha''	=	-3.5635
-	psi	=	0.0136
-	psi'	=	-0.3775
-	psi''	=	1.7982
+	phi	=	0.0398
+	phi'	=	-0.1889
+	phi''	=	-1.9083
+	theta	=	1.5270
+	theta'	=	-0.0318
+	theta''	=	-0.0928
+	alpha	=	1.5419
+	alpha'	=	-0.1396
+	alpha''	=	-5.7970
+	psi	=	-0.0170
+	psi'	=	0.3594
+	psi''	=	23.5644
 
 
 
@@ -412,25 +412,25 @@ At the last timestep, the solution is
 Start time = 0.1400	End time = 0.1500
 
 Torque input is:
-	T	=	0.0023
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.5689
+	T	=	-0.9811
+	SF	=	0.8552
+	RF	=	3.1873
+	LF	=	-2.4485
 
 At the last timestep, the solution is 
 	t	=	0.1500
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5882
-	alpha'	=	-0.0255
-	alpha''	=	-3.3012
-	psi	=	0.0100
-	psi'	=	-0.3495
-	psi''	=	2.8031
+	phi	=	0.0378
+	phi'	=	-0.2083
+	phi''	=	-1.9395
+	theta	=	1.5267
+	theta'	=	-0.0326
+	theta''	=	-0.0844
+	alpha	=	1.5403
+	alpha'	=	-0.1775
+	alpha''	=	-3.8643
+	psi	=	-0.0126
+	psi'	=	0.5192
+	psi''	=	16.1983
 
 
 
@@ -439,25 +439,25 @@ At the last timestep, the solution is
 Start time = 0.1500	End time = 0.1600
 
 Torque input is:
-	T	=	-0.0696
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.4563
+	T	=	-0.5362
+	SF	=	0.8457
+	RF	=	3.3009
+	LF	=	-2.8022
 
 At the last timestep, the solution is 
 	t	=	0.1600
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5878
-	alpha'	=	-0.0550
-	alpha''	=	-2.9577
-	psi	=	0.0067
-	psi'	=	-0.3141
-	psi''	=	3.5446
+	phi	=	0.0356
+	phi'	=	-0.2279
+	phi''	=	-1.9551
+	theta	=	1.5263
+	theta'	=	-0.0332
+	theta''	=	-0.0736
+	alpha	=	1.5385
+	alpha'	=	-0.1926
+	alpha''	=	-1.5901
+	psi	=	-0.0070
+	psi'	=	0.5906
+	psi''	=	7.3966
 
 
 
@@ -466,25 +466,25 @@ At the last timestep, the solution is
 Start time = 0.1600	End time = 0.1700
 
 Torque input is:
-	T	=	-0.1280
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.3456
+	T	=	-0.0596
+	SF	=	0.8247
+	RF	=	3.4160
+	LF	=	-3.0998
 
 At the last timestep, the solution is 
 	t	=	0.1700
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5871
-	alpha'	=	-0.0805
-	alpha''	=	-2.5571
-	psi	=	0.0037
-	psi'	=	-0.2738
-	psi''	=	4.0412
+	phi	=	0.0332
+	phi'	=	-0.2473
+	phi''	=	-1.9481
+	theta	=	1.5260
+	theta'	=	-0.0338
+	theta''	=	-0.0586
+	alpha	=	1.5366
+	alpha'	=	-0.1844
+	alpha''	=	0.7287
+	psi	=	-0.0012
+	psi'	=	0.5711
+	psi''	=	-1.6737
 
 
 
@@ -493,25 +493,25 @@ At the last timestep, the solution is
 Start time = 0.1700	End time = 0.1800
 
 Torque input is:
-	T	=	-0.1730
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.2397
+	T	=	0.3831
+	SF	=	0.7916
+	RF	=	3.5324
+	LF	=	-3.3188
 
 At the last timestep, the solution is 
 	t	=	0.1800
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5862
-	alpha'	=	-0.1015
-	alpha''	=	-2.1177
-	psi	=	0.0012
-	psi'	=	-0.2309
-	psi''	=	4.3119
+	phi	=	0.0307
+	phi'	=	-0.2665
+	phi''	=	-1.9112
+	theta	=	1.5257
+	theta'	=	-0.0341
+	theta''	=	-0.0377
+	alpha	=	1.5349
+	alpha'	=	-0.1555
+	alpha''	=	2.8065
+	psi	=	0.0040
+	psi'	=	0.4699
+	psi''	=	-9.8681
 
 
 
@@ -520,25 +520,25 @@ At the last timestep, the solution is
 Start time = 0.1800	End time = 0.1900
 
 Torque input is:
-	T	=	-0.2052
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.1411
+	T	=	0.7317
+	SF	=	0.7458
+	RF	=	3.6498
+	LF	=	-3.4473
 
 At the last timestep, the solution is 
 	t	=	0.1900
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5851
-	alpha'	=	-0.1178
-	alpha''	=	-1.6594
-	psi	=	-0.0009
-	psi'	=	-0.1872
-	psi''	=	4.3825
+	phi	=	0.0279
+	phi'	=	-0.2848
+	phi''	=	-1.8372
+	theta	=	1.5253
+	theta'	=	-0.0342
+	theta''	=	-0.0110
+	alpha	=	1.5336
+	alpha'	=	-0.1112
+	alpha''	=	4.3770
+	psi	=	0.0079
+	psi'	=	0.3067
+	psi''	=	-16.1237
 
 
 
@@ -547,25 +547,25 @@ At the last timestep, the solution is
 Start time = 0.1900	End time = 0.2000
 
 Torque input is:
-	T	=	-0.2255
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0517
+	T	=	0.9391
+	SF	=	0.6868
+	RF	=	3.7680
+	LF	=	-3.4849
 
 At the last timestep, the solution is 
 	t	=	0.2000
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5839
-	alpha'	=	-0.1296
-	alpha''	=	-1.2008
-	psi	=	-0.0026
-	psi'	=	-0.1446
-	psi''	=	4.2819
+	phi	=	0.0250
+	phi'	=	-0.3020
+	phi''	=	-1.7207
+	theta	=	1.5250
+	theta'	=	-0.0341
+	theta''	=	0.0206
+	alpha	=	1.5327
+	alpha'	=	-0.0583
+	alpha''	=	5.2438
+	psi	=	0.0099
+	psi'	=	0.1091
+	psi''	=	-19.6472
 
 
 
@@ -574,25 +574,25 @@ At the last timestep, the solution is
 Start time = 0.2000	End time = 0.2100
 
 Torque input is:
-	T	=	-0.2352
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0272
+	T	=	0.9788
+	SF	=	0.6146
+	RF	=	3.8865
+	LF	=	-3.4434
 
 At the last timestep, the solution is 
 	t	=	0.2100
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5826
-	alpha'	=	-0.1369
-	alpha''	=	-0.7577
-	psi	=	-0.0038
-	psi'	=	-0.1044
-	psi''	=	4.0407
+	phi	=	0.0219
+	phi'	=	-0.3176
+	phi''	=	-1.5578
+	theta	=	1.5246
+	theta'	=	-0.0335
+	theta''	=	0.0554
+	alpha	=	1.5324
+	alpha'	=	-0.0050
+	alpha''	=	5.3177
+	psi	=	0.0100
+	psi'	=	-0.0919
+	psi''	=	-20.0571
 
 
 
@@ -601,25 +601,25 @@ At the last timestep, the solution is
 Start time = 0.2100	End time = 0.2200
 
 Torque input is:
-	T	=	-0.2355
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0945
+	T	=	0.8484
+	SF	=	0.5290
+	RF	=	4.0048
+	LF	=	-3.3450
 
 At the last timestep, the solution is 
 	t	=	0.2200
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5812
-	alpha'	=	-0.1401
-	alpha''	=	-0.3374
-	psi	=	-0.0047
-	psi'	=	-0.0678
-	psi''	=	3.6846
+	phi	=	0.0186
+	phi'	=	-0.3311
+	phi''	=	-1.3479
+	theta	=	1.5243
+	theta'	=	-0.0326
+	theta''	=	0.0918
+	alpha	=	1.5326
+	alpha'	=	0.0410
+	alpha''	=	4.6133
+	psi	=	0.0082
+	psi'	=	-0.2654
+	psi''	=	-17.3882
 
 
 
@@ -628,25 +628,25 @@ At the last timestep, the solution is
 Start time = 0.2200	End time = 0.2300
 
 Torque input is:
-	T	=	-0.2281
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.1498
+	T	=	0.5707
+	SF	=	0.4305
+	RF	=	4.1225
+	LF	=	-3.2190
 
 At the last timestep, the solution is 
 	t	=	0.2300
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5798
-	alpha'	=	-0.1394
-	alpha''	=	0.0398
-	psi	=	-0.0052
-	psi'	=	-0.0355
-	psi''	=	3.2528
+	phi	=	0.0153
+	phi'	=	-0.3420
+	phi''	=	-1.0929
+	theta	=	1.5240
+	theta'	=	-0.0314
+	theta''	=	0.1273
+	alpha	=	1.5332
+	alpha'	=	0.0733
+	alpha''	=	3.2639
+	psi	=	0.0050
+	psi'	=	-0.3859
+	psi''	=	-12.1434
 
 
 
@@ -655,25 +655,25 @@ At the last timestep, the solution is
 Start time = 0.2300	End time = 0.2400
 
 Torque input is:
-	T	=	-0.2143
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.1932
+	T	=	0.1909
+	SF	=	0.3197
+	RF	=	4.2393
+	LF	=	-3.0982
 
 At the last timestep, the solution is 
 	t	=	0.2400
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5784
-	alpha'	=	-0.1354
-	alpha''	=	0.3754
-	psi	=	-0.0054
-	psi'	=	-0.0081
-	psi''	=	2.7664
+	phi	=	0.0118
+	phi'	=	-0.3500
+	phi''	=	-0.7980
+	theta	=	1.5237
+	theta'	=	-0.0298
+	theta''	=	0.1600
+	alpha	=	1.5340
+	alpha'	=	0.0878
+	alpha''	=	1.4952
+	psi	=	0.0009
+	psi'	=	-0.4366
+	psi''	=	-5.1994
 
 
 
@@ -682,25 +682,25 @@ At the last timestep, the solution is
 Start time = 0.2400	End time = 0.2500
 
 Torque input is:
-	T	=	-0.1959
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.2250
+	T	=	-0.2300
+	SF	=	0.1973
+	RF	=	4.3547
+	LF	=	-3.0138
 
 At the last timestep, the solution is 
 	t	=	0.2500
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5771
-	alpha'	=	-0.1285
-	alpha''	=	0.6571
-	psi	=	-0.0054
-	psi'	=	0.0143
-	psi''	=	2.2585
+	phi	=	0.0083
+	phi'	=	-0.3547
+	phi''	=	-0.4705
+	theta	=	1.5234
+	theta'	=	-0.0279
+	theta''	=	0.1887
+	alpha	=	1.5348
+	alpha'	=	0.0834
+	alpha''	=	-0.3989
+	psi	=	-0.0034
+	psi'	=	-0.4124
+	psi''	=	2.2925
 
 
 
@@ -709,25 +709,25 @@ At the last timestep, the solution is
 Start time = 0.2500	End time = 0.2600
 
 Torque input is:
-	T	=	-0.1742
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.2457
+	T	=	-0.6243
+	SF	=	0.0645
+	RF	=	4.4686
+	LF	=	-2.9906
 
 At the last timestep, the solution is 
 	t	=	0.2600
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5758
-	alpha'	=	-0.1194
-	alpha''	=	0.8868
-	psi	=	-0.0051
-	psi'	=	0.0316
-	psi''	=	1.7490
+	phi	=	0.0047
+	phi'	=	-0.3559
+	phi''	=	-0.1197
+	theta	=	1.5231
+	theta'	=	-0.0257
+	theta''	=	0.2138
+	alpha	=	1.5355
+	alpha'	=	0.0621
+	alpha''	=	-2.1055
+	psi	=	-0.0070
+	psi'	=	-0.3205
+	psi''	=	9.0947
 
 
 
@@ -736,25 +736,25 @@ At the last timestep, the solution is
 Start time = 0.2600	End time = 0.2700
 
 Torque input is:
-	T	=	-0.1508
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.2564
+	T	=	-0.9287
+	SF	=	-0.0773
+	RF	=	4.5806
+	LF	=	-3.0431
 
 At the last timestep, the solution is 
 	t	=	0.2700
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5747
-	alpha'	=	-0.1086
-	alpha''	=	1.0597
-	psi	=	-0.0048
-	psi'	=	0.0440
-	psi''	=	1.2621
+	phi	=	0.0012
+	phi'	=	-0.3535
+	phi''	=	0.2450
+	theta	=	1.5229
+	theta'	=	-0.0233
+	theta''	=	0.2361
+	alpha	=	1.5360
+	alpha'	=	0.0285
+	alpha''	=	-3.3368
+	psi	=	-0.0095
+	psi'	=	-0.1792
+	psi''	=	14.0648
 
 
 
@@ -763,25 +763,25 @@ At the last timestep, the solution is
 Start time = 0.2700	End time = 0.2800
 
 Torque input is:
-	T	=	-0.1267
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.2583
+	T	=	-1.0949
+	SF	=	-0.2267
+	RF	=	4.6907
+	LF	=	-3.1730
 
 At the last timestep, the solution is 
 	t	=	0.2800
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5737
-	alpha'	=	-0.0967
-	alpha''	=	1.1767
-	psi	=	-0.0043
-	psi'	=	0.0520
-	psi''	=	0.8149
+	phi	=	-0.0023
+	phi'	=	-0.3473
+	phi''	=	0.6149
+	theta	=	1.5227
+	theta'	=	-0.0206
+	theta''	=	0.2575
+	alpha	=	1.5361
+	alpha'	=	-0.0104
+	alpha''	=	-3.8893
+	psi	=	-0.0105
+	psi'	=	-0.0153
+	psi''	=	16.3810
 
 
 
@@ -790,25 +790,25 @@ At the last timestep, the solution is
 Start time = 0.2800	End time = 0.2900
 
 Torque input is:
-	T	=	-0.1031
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.2525
+	T	=	-1.0985
+	SF	=	-0.3818
+	RF	=	4.7984
+	LF	=	-3.3685
 
 At the last timestep, the solution is 
 	t	=	0.2900
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5728
-	alpha'	=	-0.0841
-	alpha''	=	1.2419
-	psi	=	-0.0037
-	psi'	=	0.0561
-	psi''	=	0.4192
+	phi	=	-0.0057
+	phi'	=	-0.3375
+	phi''	=	0.9829
+	theta	=	1.5225
+	theta'	=	-0.0178
+	theta''	=	0.2809
+	alpha	=	1.5358
+	alpha'	=	-0.0469
+	alpha''	=	-3.6714
+	psi	=	-0.0099
+	psi'	=	0.1408
+	psi''	=	15.6630
 
 
 
@@ -817,25 +817,25 @@ At the last timestep, the solution is
 Start time = 0.2900	End time = 0.3000
 
 Torque input is:
-	T	=	-0.0809
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.2404
+	T	=	-0.9440
+	SF	=	-0.5408
+	RF	=	4.9035
+	LF	=	-3.6061
 
 At the last timestep, the solution is 
 	t	=	0.3000
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5720
-	alpha'	=	-0.0714
-	alpha''	=	1.2598
-	psi	=	-0.0032
-	psi'	=	0.0568
-	psi''	=	0.0834
+	phi	=	-0.0090
+	phi'	=	-0.3240
+	phi''	=	1.3445
+	theta	=	1.5223
+	theta'	=	-0.0147
+	theta''	=	0.3071
+	alpha	=	1.5352
+	alpha'	=	-0.0740
+	alpha''	=	-2.7332
+	psi	=	-0.0079
+	psi'	=	0.2607
+	psi''	=	12.0831
 
 
 
@@ -844,25 +844,25 @@ At the last timestep, the solution is
 Start time = 0.3000	End time = 0.3100
 
 Torque input is:
-	T	=	-0.0607
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.2235
+	T	=	-0.6645
+	SF	=	-0.7016
+	RF	=	5.0056
+	LF	=	-3.8546
 
 At the last timestep, the solution is 
 	t	=	0.3100
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5713
-	alpha'	=	-0.0589
-	alpha''	=	1.2363
-	psi	=	-0.0026
-	psi'	=	0.0548
-	psi''	=	-0.1880
+	phi	=	-0.0122
+	phi'	=	-0.3071
+	phi''	=	1.6980
+	theta	=	1.5222
+	theta'	=	-0.0113
+	theta''	=	0.3378
+	alpha	=	1.5344
+	alpha'	=	-0.0861
+	alpha''	=	-1.2487
+	psi	=	-0.0050
+	psi'	=	0.3228
+	psi''	=	6.3148
 
 
 
@@ -871,25 +871,25 @@ At the last timestep, the solution is
 Start time = 0.3100	End time = 0.3200
 
 Torque input is:
-	T	=	-0.0429
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.2030
+	T	=	-0.3172
+	SF	=	-0.8621
+	RF	=	5.1040
+	LF	=	-4.0803
 
 At the last timestep, the solution is 
 	t	=	0.3200
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0470
-	alpha''	=	1.1779
-	psi	=	-0.0021
-	psi'	=	0.0508
-	psi''	=	-0.3941
+	phi	=	-0.0152
+	phi'	=	-0.2866
+	phi''	=	2.0434
+	theta	=	1.5221
+	theta'	=	-0.0076
+	theta''	=	0.3724
+	alpha	=	1.5336
+	alpha'	=	-0.0807
+	alpha''	=	0.4901
+	psi	=	-0.0018
+	psi'	=	0.3164
+	psi''	=	-0.5114
 
 
 
@@ -898,25 +898,25 @@ At the last timestep, the solution is
 Start time = 0.3200	End time = 0.3300
 
 Torque input is:
-	T	=	-0.0278
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.1804
+	T	=	0.0271
+	SF	=	-1.0198
+	RF	=	5.1981
+	LF	=	-4.2531
 
 At the last timestep, the solution is 
 	t	=	0.3300
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5704
-	alpha'	=	-0.0361
-	alpha''	=	1.0918
-	psi	=	-0.0016
-	psi'	=	0.0454
-	psi''	=	-0.5374
+	phi	=	-0.0179
+	phi'	=	-0.2628
+	phi''	=	2.3823
+	theta	=	1.5220
+	theta'	=	-0.0035
+	theta''	=	0.4095
+	alpha	=	1.5329
+	alpha'	=	-0.0588
+	alpha''	=	2.1586
+	psi	=	0.0010
+	psi'	=	0.2444
+	psi''	=	-7.1071
 
 
 
@@ -925,25 +925,25 @@ At the last timestep, the solution is
 Start time = 0.3300	End time = 0.3400
 
 Torque input is:
-	T	=	-0.0155
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.1566
+	T	=	0.2972
+	SF	=	-1.1722
+	RF	=	5.2873
+	LF	=	-4.3522
 
 At the last timestep, the solution is 
 	t	=	0.3400
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5701
-	alpha'	=	-0.0261
-	alpha''	=	0.9852
-	psi	=	-0.0012
-	psi'	=	0.0391
-	psi''	=	-0.6230
+	phi	=	-0.0204
+	phi'	=	-0.2356
+	phi''	=	2.7157
+	theta	=	1.5220
+	theta'	=	0.0009
+	theta''	=	0.4469
+	alpha	=	1.5324
+	alpha'	=	-0.0244
+	alpha''	=	3.4230
+	psi	=	0.0029
+	psi'	=	0.1223
+	psi''	=	-12.1548
 
 
 
@@ -952,25 +952,25 @@ At the last timestep, the solution is
 Start time = 0.3400	End time = 0.3500
 
 Torque input is:
-	T	=	-0.0059
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.1327
+	T	=	0.4350
+	SF	=	-1.3165
+	RF	=	5.3707
+	LF	=	-4.3705
 
 At the last timestep, the solution is 
 	t	=	0.3500
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5699
-	alpha'	=	-0.0175
-	alpha''	=	0.8653
-	psi	=	-0.0008
-	psi'	=	0.0325
-	psi''	=	-0.6579
+	phi	=	-0.0226
+	phi'	=	-0.2052
+	phi''	=	3.0430
+	theta	=	1.5220
+	theta'	=	0.0057
+	theta''	=	0.4824
+	alpha	=	1.5324
+	alpha'	=	0.0159
+	alpha''	=	4.0306
+	psi	=	0.0034
+	psi'	=	-0.0241
+	psi''	=	-14.6407
 
 
 
@@ -979,25 +979,25 @@ At the last timestep, the solution is
 Start time = 0.3500	End time = 0.3600
 
 Torque input is:
-	T	=	0.0011
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.1095
+	T	=	0.4081
+	SF	=	-1.4498
+	RF	=	5.4478
+	LF	=	-4.3157
 
 At the last timestep, the solution is 
 	t	=	0.3600
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5697
-	alpha'	=	-0.0100
-	alpha''	=	0.7387
-	psi	=	-0.0005
-	psi'	=	0.0260
-	psi''	=	-0.6506
+	phi	=	-0.0245
+	phi'	=	-0.1716
+	phi''	=	3.3608
+	theta	=	1.5221
+	theta'	=	0.0108
+	theta''	=	0.5131
+	alpha	=	1.5328
+	alpha'	=	0.0542
+	alpha''	=	3.8544
+	psi	=	0.0024
+	psi'	=	-0.1638
+	psi''	=	-14.0402
 
 
 
@@ -1006,25 +1006,25 @@ At the last timestep, the solution is
 Start time = 0.3600	End time = 0.3700
 
 Torque input is:
-	T	=	0.0059
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0878
+	T	=	0.2172
+	SF	=	-1.5692
+	RF	=	5.5179
+	LF	=	-4.2099
 
 At the last timestep, the solution is 
 	t	=	0.3700
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5697
-	alpha'	=	-0.0039
-	alpha''	=	0.6110
-	psi	=	-0.0003
-	psi'	=	0.0199
-	psi''	=	-0.6099
+	phi	=	-0.0260
+	phi'	=	-0.1350
+	phi''	=	3.6614
+	theta	=	1.5223
+	theta'	=	0.0162
+	theta''	=	0.5383
+	alpha	=	1.5334
+	alpha'	=	0.0831
+	alpha''	=	2.9242
+	psi	=	0.0003
+	psi'	=	-0.2672
+	psi''	=	-10.4461
 
 
 
@@ -1033,25 +1033,25 @@ At the last timestep, the solution is
 Start time = 0.3700	End time = 0.3800
 
 Torque input is:
-	T	=	0.0088
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0680
+	T	=	-0.1021
+	SF	=	-1.6714
+	RF	=	5.5807
+	LF	=	-4.0852
 
 At the last timestep, the solution is 
 	t	=	0.3800
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5696
-	alpha'	=	0.0010
-	alpha''	=	0.4877
-	psi	=	-0.0001
-	psi'	=	0.0144
-	psi''	=	-0.5455
+	phi	=	-0.0272
+	phi'	=	-0.0957
+	phi''	=	3.9338
+	theta	=	1.5225
+	theta'	=	0.0218
+	theta''	=	0.5579
+	alpha	=	1.5343
+	alpha'	=	0.0969
+	alpha''	=	1.4223
+	psi	=	-0.0026
+	psi'	=	-0.3115
+	psi''	=	-4.5613
 
 
 
@@ -1060,25 +1060,25 @@ At the last timestep, the solution is
 Start time = 0.3800	End time = 0.3900
 
 Torque input is:
-	T	=	0.0101
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0504
+	T	=	-0.4856
+	SF	=	-1.7534
+	RF	=	5.6358
+	LF	=	-3.9775
 
 At the last timestep, the solution is 
 	t	=	0.3900
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5697
-	alpha'	=	0.0047
-	alpha''	=	0.3726
-	psi	=	-0.0000
-	psi'	=	0.0097
-	psi''	=	-0.4659
+	phi	=	-0.0279
+	phi'	=	-0.0540
+	phi''	=	4.1641
+	theta	=	1.5227
+	theta'	=	0.0275
+	theta''	=	0.5730
+	alpha	=	1.5353
+	alpha'	=	0.0932
+	alpha''	=	-0.3224
+	psi	=	-0.0056
+	psi'	=	-0.2867
+	psi''	=	2.3434
 
 
 
@@ -1087,25 +1087,25 @@ At the last timestep, the solution is
 Start time = 0.3900	End time = 0.4000
 
 Torque input is:
-	T	=	0.0103
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0353
+	T	=	-0.8524
+	SF	=	-1.8121
+	RF	=	5.6827
+	LF	=	-3.9191
 
 At the last timestep, the solution is 
 	t	=	0.4000
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5697
-	alpha'	=	0.0073
-	alpha''	=	0.2688
-	psi	=	0.0001
-	psi'	=	0.0060
-	psi''	=	-0.3791
+	phi	=	-0.0283
+	phi'	=	-0.0107
+	phi''	=	4.3369
+	theta	=	1.5230
+	theta'	=	0.0334
+	theta''	=	0.5855
+	alpha	=	1.5361
+	alpha'	=	0.0735
+	alpha''	=	-1.9344
+	psi	=	-0.0080
+	psi'	=	-0.1977
+	psi''	=	8.7861
 
 
 
@@ -1114,25 +1114,25 @@ At the last timestep, the solution is
 Start time = 0.4000	End time = 0.4100
 
 Torque input is:
-	T	=	0.0096
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0225
+	T	=	-1.1224
+	SF	=	-1.8449
+	RF	=	5.7212
+	LF	=	-3.9315
 
 At the last timestep, the solution is 
 	t	=	0.4100
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5698
-	alpha'	=	0.0091
-	alpha''	=	0.1782
-	psi	=	0.0001
-	psi'	=	0.0031
-	psi''	=	-0.2921
+	phi	=	-0.0281
+	phi'	=	0.0337
+	phi''	=	4.4379
+	theta	=	1.5234
+	theta'	=	0.0393
+	theta''	=	0.5971
+	alpha	=	1.5367
+	alpha'	=	0.0428
+	alpha''	=	-3.0423
+	psi	=	-0.0093
+	psi'	=	-0.0640
+	psi''	=	13.2973
 
 
 
@@ -1141,25 +1141,25 @@ At the last timestep, the solution is
 Start time = 0.4100	End time = 0.4200
 
 Torque input is:
-	T	=	0.0085
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0122
+	T	=	-1.2335
+	SF	=	-1.8493
+	RF	=	5.7508
+	LF	=	-4.0199
 
 At the last timestep, the solution is 
 	t	=	0.4200
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5699
-	alpha'	=	0.0101
-	alpha''	=	0.1019
-	psi	=	0.0001
-	psi'	=	0.0010
-	psi''	=	-0.2103
+	phi	=	-0.0276
+	phi'	=	0.0783
+	phi''	=	4.4561
+	theta	=	1.5238
+	theta'	=	0.0454
+	theta''	=	0.6082
+	alpha	=	1.5370
+	alpha'	=	0.0089
+	alpha''	=	-3.3733
+	psi	=	-0.0092
+	psi'	=	0.0842
+	psi''	=	14.7869
 
 
 
@@ -1168,25 +1168,25 @@ At the last timestep, the solution is
 Start time = 0.4200	End time = 0.4300
 
 Torque input is:
-	T	=	0.0072
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0040
+	T	=	-1.1578
+	SF	=	-1.8237
+	RF	=	5.7713
+	LF	=	-4.1713
 
 At the last timestep, the solution is 
 	t	=	0.4300
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5700
-	alpha'	=	0.0105
-	alpha''	=	0.0400
-	psi	=	0.0001
-	psi'	=	-0.0004
-	psi''	=	-0.1377
+	phi	=	-0.0266
+	phi'	=	0.1222
+	phi''	=	4.3849
+	theta	=	1.5243
+	theta'	=	0.0515
+	theta''	=	0.6188
+	alpha	=	1.5369
+	alpha'	=	-0.0192
+	alpha''	=	-2.8195
+	psi	=	-0.0078
+	psi'	=	0.2121
+	psi''	=	12.8111
 
 
 
@@ -1195,25 +1195,25 @@ At the last timestep, the solution is
 Start time = 0.4300	End time = 0.4400
 
 Torque input is:
-	T	=	0.0058
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0022
+	T	=	-0.9095
+	SF	=	-1.7667
+	RF	=	5.7819
+	LF	=	-4.3561
 
 At the last timestep, the solution is 
 	t	=	0.4400
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5701
-	alpha'	=	0.0104
-	alpha''	=	-0.0077
-	psi	=	0.0001
-	psi'	=	-0.0011
-	psi''	=	-0.0773
+	phi	=	-0.0251
+	phi'	=	0.1644
+	phi''	=	4.2242
+	theta	=	1.5248
+	theta'	=	0.0577
+	theta''	=	0.6262
+	alpha	=	1.5366
+	alpha'	=	-0.0339
+	alpha''	=	-1.4779
+	psi	=	-0.0052
+	psi'	=	0.2889
+	psi''	=	7.7232
 
 
 
@@ -1222,25 +1222,25 @@ At the last timestep, the solution is
 Start time = 0.4400	End time = 0.4500
 
 Torque input is:
-	T	=	0.0046
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0067
+	T	=	-0.5447
+	SF	=	-1.6778
+	RF	=	5.7825
+	LF	=	-4.5344
 
 At the last timestep, the solution is 
 	t	=	0.4500
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5702
-	alpha'	=	0.0100
-	alpha''	=	-0.0429
-	psi	=	0.0001
-	psi'	=	-0.0014
-	psi''	=	-0.0298
+	phi	=	-0.0233
+	phi'	=	0.2042
+	phi''	=	3.9786
+	theta	=	1.5254
+	theta'	=	0.0640
+	theta''	=	0.6285
+	alpha	=	1.5363
+	alpha'	=	-0.0302
+	alpha''	=	0.3631
+	psi	=	-0.0023
+	psi'	=	0.2947
+	psi''	=	0.6396
 
 
 
@@ -1249,25 +1249,25 @@ At the last timestep, the solution is
 Start time = 0.4500	End time = 0.4600
 
 Torque input is:
-	T	=	0.0037
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0098
+	T	=	-0.1504
+	SF	=	-1.5570
+	RF	=	5.7726
+	LF	=	-4.6640
 
 At the last timestep, the solution is 
 	t	=	0.4600
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5703
-	alpha'	=	0.0093
-	alpha''	=	-0.0665
-	psi	=	0.0001
-	psi'	=	-0.0014
-	psi''	=	0.0041
+	phi	=	-0.0211
+	phi'	=	0.2408
+	phi''	=	3.6570
+	theta	=	1.5261
+	theta'	=	0.0702
+	theta''	=	0.6230
+	alpha	=	1.5361
+	alpha'	=	-0.0073
+	alpha''	=	2.2814
+	psi	=	0.0003
+	psi'	=	0.2265
+	psi''	=	-6.7907
 
 
 
@@ -1276,25 +1276,25 @@ At the last timestep, the solution is
 Start time = 0.4600	End time = 0.4700
 
 Torque input is:
-	T	=	0.0030
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0117
+	T	=	0.1747
+	SF	=	-1.4050
+	RF	=	5.7520
+	LF	=	-4.7108
 
 At the last timestep, the solution is 
 	t	=	0.4700
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5704
-	alpha'	=	0.0084
-	alpha''	=	-0.0807
-	psi	=	0.0001
-	psi'	=	-0.0011
-	psi''	=	0.0256
+	phi	=	-0.0185
+	phi'	=	0.2735
+	phi''	=	3.2701
+	theta	=	1.5268
+	theta'	=	0.0763
+	theta''	=	0.6095
+	alpha	=	1.5363
+	alpha'	=	0.0307
+	alpha''	=	3.8108
+	psi	=	0.0019
+	psi'	=	0.0994
+	psi''	=	-12.7318
 
 
 
@@ -1303,25 +1303,25 @@ At the last timestep, the solution is
 Start time = 0.4700	End time = 0.4800
 
 Torque input is:
-	T	=	0.0027
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0128
+	T	=	0.3436
+	SF	=	-1.2233
+	RF	=	5.7208
+	LF	=	-4.6571
 
 At the last timestep, the solution is 
 	t	=	0.4800
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5705
-	alpha'	=	0.0076
-	alpha''	=	-0.0872
-	psi	=	0.0001
-	psi'	=	-0.0007
-	psi''	=	0.0362
+	phi	=	-0.0156
+	phi'	=	0.3018
+	phi''	=	2.8281
+	theta	=	1.5276
+	theta'	=	0.0822
+	theta''	=	0.5889
+	alpha	=	1.5368
+	alpha'	=	0.0759
+	alpha''	=	4.5552
+	psi	=	0.0021
+	psi'	=	-0.0559
+	psi''	=	-15.6166
 
 
 
@@ -1330,25 +1330,25 @@ At the last timestep, the solution is
 Start time = 0.4800	End time = 0.4900
 
 Torque input is:
-	T	=	0.0026
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0133
+	T	=	0.3041
+	SF	=	-1.0137
+	RF	=	5.6791
+	LF	=	-4.5069
 
 At the last timestep, the solution is 
 	t	=	0.4900
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5706
-	alpha'	=	0.0067
-	alpha''	=	-0.0880
-	psi	=	0.0001
-	psi'	=	-0.0003
-	psi''	=	0.0380
+	phi	=	-0.0125
+	phi'	=	0.3251
+	phi''	=	2.3386
+	theta	=	1.5285
+	theta'	=	0.0878
+	theta''	=	0.5642
+	alpha	=	1.5378
+	alpha'	=	0.1183
+	alpha''	=	4.2918
+	psi	=	0.0008
+	psi'	=	-0.2000
+	psi''	=	-14.5486
 
 
 
@@ -1357,25 +1357,25 @@ At the last timestep, the solution is
 Start time = 0.4900	End time = 0.5000
 
 Torque input is:
-	T	=	0.0027
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0133
+	T	=	0.0545
+	SF	=	-0.7787
+	RF	=	5.6269
+	LF	=	-4.2864
 
 At the last timestep, the solution is 
 	t	=	0.5000
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5706
-	alpha'	=	0.0058
-	alpha''	=	-0.0848
-	psi	=	0.0001
-	psi'	=	0.0000
-	psi''	=	0.0332
+	phi	=	-0.0092
+	phi'	=	0.3432
+	phi''	=	1.8060
+	theta	=	1.5294
+	theta'	=	0.0932
+	theta''	=	0.5392
+	alpha	=	1.5391
+	alpha'	=	0.1481
+	alpha''	=	3.0484
+	psi	=	-0.0016
+	psi'	=	-0.2941
+	psi''	=	-9.6078
 
 
 
@@ -1384,25 +1384,25 @@ At the last timestep, the solution is
 Start time = 0.5000	End time = 0.5100
 
 Torque input is:
-	T	=	0.0030
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0131
+	T	=	-0.3512
+	SF	=	-0.5213
+	RF	=	5.5646
+	LF	=	-4.0385
 
 At the last timestep, the solution is 
 	t	=	0.5100
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5707
-	alpha'	=	0.0050
-	alpha''	=	-0.0791
-	psi	=	0.0001
-	psi'	=	0.0003
-	psi''	=	0.0242
+	phi	=	-0.0057
+	phi'	=	0.3555
+	phi''	=	1.2308
+	theta	=	1.5303
+	theta'	=	0.0984
+	theta''	=	0.5175
+	alpha	=	1.5406
+	alpha'	=	0.1584
+	alpha''	=	1.0985
+	psi	=	-0.0046
+	psi'	=	-0.3105
+	psi''	=	-1.8580
 
 
 
@@ -1411,25 +1411,25 @@ At the last timestep, the solution is
 Start time = 0.5100	End time = 0.5200
 
 Torque input is:
-	T	=	0.0034
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0127
+	T	=	-0.8132
+	SF	=	-0.2454
+	RF	=	5.4921
+	LF	=	-3.8131
 
 At the last timestep, the solution is 
 	t	=	0.5200
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5707
-	alpha'	=	0.0043
-	alpha''	=	-0.0721
-	psi	=	0.0001
-	psi'	=	0.0004
-	psi''	=	0.0131
+	phi	=	-0.0021
+	phi'	=	0.3616
+	phi''	=	0.6126
+	theta	=	1.5314
+	theta'	=	0.1033
+	theta''	=	0.5013
+	alpha	=	1.5421
+	alpha'	=	0.1470
+	alpha''	=	-1.0651
+	psi	=	-0.0074
+	psi'	=	-0.2405
+	psi''	=	6.7779
 
 
 
@@ -1438,25 +1438,25 @@ At the last timestep, the solution is
 Start time = 0.5200	End time = 0.5300
 
 Torque input is:
-	T	=	0.0037
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0122
+	T	=	-1.2085
+	SF	=	0.0448
+	RF	=	5.4092
+	LF	=	-3.6544
 
 At the last timestep, the solution is 
 	t	=	0.5300
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0036
-	alpha''	=	-0.0648
-	psi	=	0.0001
-	psi'	=	0.0004
-	psi''	=	0.0017
+	phi	=	0.0015
+	phi'	=	0.3611
+	phi''	=	-0.0482
+	theta	=	1.5324
+	theta'	=	0.1081
+	theta''	=	0.4895
+	alpha	=	1.5435
+	alpha'	=	0.1177
+	alpha''	=	-2.8696
+	psi	=	-0.0091
+	psi'	=	-0.0984
+	psi''	=	14.0331
 
 
 
@@ -1465,25 +1465,25 @@ At the last timestep, the solution is
 Start time = 0.5300	End time = 0.5400
 
 Torque input is:
-	T	=	0.0040
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0116
+	T	=	-1.4221
+	SF	=	0.3443
+	RF	=	5.3158
+	LF	=	-3.5879
 
 At the last timestep, the solution is 
 	t	=	0.5400
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0030
-	alpha''	=	-0.0580
-	psi	=	0.0001
-	psi'	=	0.0003
-	psi''	=	-0.0085
+	phi	=	0.0051
+	phi'	=	0.3537
+	phi''	=	-0.7471
+	theta	=	1.5335
+	theta'	=	0.1128
+	theta''	=	0.4799
+	alpha	=	1.5444
+	alpha'	=	0.0795
+	alpha''	=	-3.7759
+	psi	=	-0.0092
+	psi'	=	0.0807
+	psi''	=	17.7790
 
 
 
@@ -1492,25 +1492,25 @@ At the last timestep, the solution is
 Start time = 0.5400	End time = 0.5500
 
 Torque input is:
-	T	=	0.0042
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0111
+	T	=	-1.3792
+	SF	=	0.6471
+	RF	=	5.2117
+	LF	=	-3.6125
 
 At the last timestep, the solution is 
 	t	=	0.5500
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0025
-	alpha''	=	-0.0519
-	psi	=	0.0001
-	psi'	=	0.0002
-	psi''	=	-0.0165
+	phi	=	0.0086
+	phi'	=	0.3390
+	phi''	=	-1.4737
+	theta	=	1.5347
+	theta'	=	0.1174
+	theta''	=	0.4696
+	alpha	=	1.5451
+	alpha'	=	0.0446
+	alpha''	=	-3.4616
+	psi	=	-0.0075
+	psi'	=	0.2487
+	psi''	=	16.7168
 
 
 
@@ -1519,25 +1519,25 @@ At the last timestep, the solution is
 Start time = 0.5500	End time = 0.5600
 
 Torque input is:
-	T	=	0.0043
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0106
+	T	=	-1.0705
+	SF	=	0.9470
+	RF	=	5.0965
+	LF	=	-3.6975
 
 At the last timestep, the solution is 
 	t	=	0.5600
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0020
-	alpha''	=	-0.0467
-	psi	=	0.0001
-	psi'	=	-0.0000
-	psi''	=	-0.0218
+	phi	=	0.0119
+	phi'	=	0.3169
+	phi''	=	-2.2099
+	theta	=	1.5359
+	theta'	=	0.1218
+	theta''	=	0.4545
+	alpha	=	1.5454
+	alpha'	=	0.0252
+	alpha''	=	-1.9241
+	psi	=	-0.0045
+	psi'	=	0.3571
+	psi''	=	10.7976
 
 
 
@@ -1546,25 +1546,25 @@ At the last timestep, the solution is
 Start time = 0.5600	End time = 0.5700
 
 Torque input is:
-	T	=	0.0042
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0100
+	T	=	-0.5612
+	SF	=	1.2369
+	RF	=	4.9703
+	LF	=	-3.7888
 
 At the last timestep, the solution is 
 	t	=	0.5700
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	0.0016
-	alpha''	=	-0.0425
-	psi	=	0.0001
-	psi'	=	-0.0003
-	psi''	=	-0.0242
+	phi	=	0.0149
+	phi'	=	0.2876
+	phi''	=	-2.9322
+	theta	=	1.5371
+	theta'	=	0.1261
+	theta''	=	0.4352
+	alpha	=	1.5457
+	alpha'	=	0.0301
+	alpha''	=	0.4942
+	psi	=	-0.0008
+	psi'	=	0.3709
+	psi''	=	1.3362
 
 
 
@@ -1573,25 +1573,25 @@ At the last timestep, the solution is
 Start time = 0.5700	End time = 0.5800
 
 Torque input is:
-	T	=	0.0040
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0094
+	T	=	0.0205
+	SF	=	1.5097
+	RF	=	4.8331
+	LF	=	-3.8216
 
 At the last timestep, the solution is 
 	t	=	0.5800
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	0.0012
-	alpha''	=	-0.0391
-	psi	=	0.0001
-	psi'	=	-0.0005
-	psi''	=	-0.0239
+	phi	=	0.0176
+	phi'	=	0.2514
+	phi''	=	-3.6122
+	theta	=	1.5384
+	theta'	=	0.1301
+	theta''	=	0.4121
+	alpha	=	1.5462
+	alpha'	=	0.0615
+	alpha''	=	3.1602
+	psi	=	0.0024
+	psi'	=	0.2798
+	psi''	=	-9.1995
 
 
 
@@ -1600,25 +1600,25 @@ At the last timestep, the solution is
 Start time = 0.5800	End time = 0.5900
 
 Torque input is:
-	T	=	0.0036
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0088
+	T	=	0.5136
+	SF	=	1.7581
+	RF	=	4.6853
+	LF	=	-3.7381
 
 At the last timestep, the solution is 
 	t	=	0.5900
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	0.0009
-	alpha''	=	-0.0363
-	psi	=	0.0001
-	psi'	=	-0.0007
-	psi''	=	-0.0212
+	phi	=	0.0199
+	phi'	=	0.2092
+	phi''	=	-4.2229
+	theta	=	1.5397
+	theta'	=	0.1339
+	theta''	=	0.3897
+	alpha	=	1.5470
+	alpha'	=	0.1141
+	alpha''	=	5.3064
+	psi	=	0.0043
+	psi'	=	0.1033
+	psi''	=	-17.7955
 
 
 
@@ -1627,25 +1627,25 @@ At the last timestep, the solution is
 Start time = 0.5900	End time = 0.6000
 
 Torque input is:
-	T	=	0.0032
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0081
+	T	=	0.7685
+	SF	=	1.9751
+	RF	=	4.5269
+	LF	=	-3.5047
 
 At the last timestep, the solution is 
 	t	=	0.6000
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	0.0005
-	alpha''	=	-0.0337
-	psi	=	0.0001
-	psi'	=	-0.0009
-	psi''	=	-0.0168
+	phi	=	0.0217
+	phi'	=	0.1617
+	phi''	=	-4.7405
+	theta	=	1.5411
+	theta'	=	0.1375
+	theta''	=	0.3737
+	alpha	=	1.5485
+	alpha'	=	0.1759
+	alpha''	=	6.2438
+	psi	=	0.0043
+	psi'	=	-0.1117
+	psi''	=	-21.7262
 
 
 
@@ -1654,25 +1654,25 @@ At the last timestep, the solution is
 Start time = 0.6000	End time = 0.6100
 
 Torque input is:
-	T	=	0.0027
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0073
+	T	=	0.6929
+	SF	=	2.1541
+	RF	=	4.3581
+	LF	=	-3.1246
 
 At the last timestep, the solution is 
 	t	=	0.6100
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	0.0002
-	alpha''	=	-0.0312
-	psi	=	0.0001
-	psi'	=	-0.0010
-	psi''	=	-0.0114
+	phi	=	0.0231
+	phi'	=	0.1102
+	phi''	=	-5.1478
+	theta	=	1.5424
+	theta'	=	0.1410
+	theta''	=	0.3677
+	alpha	=	1.5505
+	alpha'	=	0.2307
+	alpha''	=	5.5737
+	psi	=	0.0022
+	psi'	=	-0.3024
+	psi''	=	-19.3899
 
 
 
@@ -1681,25 +1681,25 @@ At the last timestep, the solution is
 Start time = 0.6100	End time = 0.6200
 
 Torque input is:
-	T	=	0.0021
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0064
+	T	=	0.2858
+	SF	=	2.2893
+	RF	=	4.1786
+	LF	=	-2.6407
 
 At the last timestep, the solution is 
 	t	=	0.6200
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	-0.0001
-	alpha''	=	-0.0286
-	psi	=	0.0000
-	psi'	=	-0.0011
-	psi''	=	-0.0055
+	phi	=	0.0239
+	phi'	=	0.0558
+	phi''	=	-5.4363
+	theta	=	1.5439
+	theta'	=	0.1445
+	theta''	=	0.3712
+	alpha	=	1.5530
+	alpha'	=	0.2630
+	alpha''	=	3.3357
+	psi	=	-0.0013
+	psi'	=	-0.4076
+	psi''	=	-10.9019
 
 
 
@@ -1708,25 +1708,25 @@ At the last timestep, the solution is
 Start time = 0.6200	End time = 0.6300
 
 Torque input is:
-	T	=	0.0015
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0055
+	T	=	-0.3506
+	SF	=	2.3759
+	RF	=	3.9880
+	LF	=	-2.1273
 
 At the last timestep, the solution is 
 	t	=	0.6300
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	-0.0003
-	alpha''	=	-0.0256
-	psi	=	0.0000
-	psi'	=	-0.0011
-	psi''	=	0.0002
+	phi	=	0.0242
+	phi'	=	-0.0003
+	phi''	=	-5.6040
+	theta	=	1.5453
+	theta'	=	0.1481
+	theta''	=	0.3812
+	alpha	=	1.5556
+	alpha'	=	0.2623
+	alpha''	=	0.0624
+	psi	=	-0.0053
+	psi'	=	-0.3866
+	psi''	=	1.6846
 
 
 
@@ -1735,25 +1735,25 @@ At the last timestep, the solution is
 Start time = 0.6300	End time = 0.6400
 
 Torque input is:
-	T	=	0.0010
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0045
+	T	=	-1.0308
+	SF	=	2.4099
+	RF	=	3.7857
+	LF	=	-1.6714
 
 At the last timestep, the solution is 
 	t	=	0.6400
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	-0.0006
-	alpha''	=	-0.0223
-	psi	=	0.0000
-	psi'	=	-0.0010
-	psi''	=	0.0052
+	phi	=	0.0239
+	phi'	=	-0.0568
+	phi''	=	-5.6535
+	theta	=	1.5468
+	theta'	=	0.1517
+	theta''	=	0.3863
+	alpha	=	1.5580
+	alpha'	=	0.2277
+	alpha''	=	-3.3627
+	psi	=	-0.0084
+	psi'	=	-0.2340
+	psi''	=	14.9078
 
 
 
@@ -1762,25 +1762,25 @@ At the last timestep, the solution is
 Start time = 0.6400	End time = 0.6500
 
 Torque input is:
-	T	=	0.0005
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0036
+	T	=	-1.5334
+	SF	=	2.3885
+	RF	=	3.5712
+	LF	=	-1.3472
 
 At the last timestep, the solution is 
 	t	=	0.6500
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	-0.0007
-	alpha''	=	-0.0187
-	psi	=	0.0000
-	psi'	=	-0.0009
-	psi''	=	0.0093
+	phi	=	0.0231
+	phi'	=	-0.1126
+	phi''	=	-5.5876
+	theta	=	1.5484
+	theta'	=	0.1554
+	theta''	=	0.3874
+	alpha	=	1.5600
+	alpha'	=	0.1684
+	alpha''	=	-5.8550
+	psi	=	-0.0095
+	psi'	=	0.0141
+	psi''	=	24.5218
 
 
 
@@ -1789,25 +1789,25 @@ At the last timestep, the solution is
 Start time = 0.6500	End time = 0.6600
 
 Torque input is:
-	T	=	0.0000
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0026
+	T	=	-1.6672
+	SF	=	2.3098
+	RF	=	3.3444
+	LF	=	-1.1916
 
 At the last timestep, the solution is 
 	t	=	0.6600
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	-0.0009
-	alpha''	=	-0.0147
-	psi	=	0.0000
-	psi'	=	-0.0008
-	psi''	=	0.0121
+	phi	=	0.0217
+	phi'	=	-0.1666
+	phi''	=	-5.4063
+	theta	=	1.5499
+	theta'	=	0.1590
+	theta''	=	0.3788
+	alpha	=	1.5614
+	alpha'	=	0.1023
+	alpha''	=	-6.5490
+	psi	=	-0.0080
+	psi'	=	0.2871
+	psi''	=	27.0946
 
 
 
@@ -1816,25 +1816,25 @@ At the last timestep, the solution is
 Start time = 0.6600	End time = 0.6700
 
 Torque input is:
-	T	=	-0.0003
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0016
+	T	=	-1.3365
+	SF	=	2.1732
+	RF	=	3.1051
+	LF	=	-1.1883
 
 At the last timestep, the solution is 
 	t	=	0.6700
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	-0.0010
-	alpha''	=	-0.0106
-	psi	=	0.0000
-	psi'	=	-0.0007
-	psi''	=	0.0137
+	phi	=	0.0197
+	phi'	=	-0.2176
+	phi''	=	-5.1047
+	theta	=	1.5516
+	theta'	=	0.1625
+	theta''	=	0.3623
+	alpha	=	1.5621
+	alpha'	=	0.0517
+	alpha''	=	-5.0420
+	psi	=	-0.0040
+	psi'	=	0.4983
+	psi''	=	21.0039
 
 
 
@@ -1843,25 +1843,25 @@ At the last timestep, the solution is
 Start time = 0.6700	End time = 0.6800
 
 Torque input is:
-	T	=	-0.0006
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0008
+	T	=	-0.5851
+	SF	=	1.9793
+	RF	=	2.8537
+	LF	=	-1.2666
 
 At the last timestep, the solution is 
 	t	=	0.6800
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5709
-	alpha'	=	-0.0011
-	alpha''	=	-0.0065
-	psi	=	-0.0000
-	psi'	=	-0.0005
-	psi''	=	0.0142
+	phi	=	0.0173
+	phi'	=	-0.2644
+	phi''	=	-4.6754
+	theta	=	1.5532
+	theta'	=	0.1658
+	theta''	=	0.3446
+	alpha	=	1.5626
+	alpha'	=	0.0356
+	alpha''	=	-1.5995
+	psi	=	0.0013
+	psi'	=	0.5715
+	psi''	=	7.2479
 
 
 
@@ -1870,25 +1870,25 @@ At the last timestep, the solution is
 Start time = 0.6800	End time = 0.6900
 
 Torque input is:
-	T	=	-0.0008
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0000
+	T	=	0.3993
+	SF	=	1.7301
+	RF	=	2.5905
+	LF	=	-1.3174
 
 At the last timestep, the solution is 
 	t	=	0.6900
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0011
-	alpha''	=	-0.0025
-	psi	=	-0.0000
-	psi'	=	-0.0004
-	psi''	=	0.0137
+	phi	=	0.0145
+	phi'	=	-0.3055
+	phi''	=	-4.1111
+	theta	=	1.5549
+	theta'	=	0.1689
+	theta''	=	0.3334
+	alpha	=	1.5631
+	alpha'	=	0.0638
+	alpha''	=	2.8359
+	psi	=	0.0065
+	psi'	=	0.4673
+	psi''	=	-10.5091
 
 
 
@@ -1897,25 +1897,25 @@ At the last timestep, the solution is
 Start time = 0.6900	End time = 0.7000
 
 Torque input is:
-	T	=	-0.0009
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0007
+	T	=	1.3271
+	SF	=	1.4293
+	RF	=	2.3156
+	LF	=	-1.2251
 
 At the last timestep, the solution is 
 	t	=	0.7000
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0011
-	alpha''	=	0.0012
-	psi	=	-0.0000
-	psi'	=	-0.0003
-	psi''	=	0.0125
+	phi	=	0.0113
+	phi'	=	-0.3397
+	phi''	=	-3.4100
+	theta	=	1.5566
+	theta'	=	0.1720
+	theta''	=	0.3297
+	alpha	=	1.5641
+	alpha'	=	0.1320
+	alpha''	=	6.8655
+	psi	=	0.0099
+	psi'	=	0.2012
+	psi''	=	-26.7790
 
 
 
@@ -1924,25 +1924,25 @@ At the last timestep, the solution is
 Start time = 0.7000	End time = 0.7100
 
 Torque input is:
-	T	=	-0.0010
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0013
+	T	=	1.8901
+	SF	=	1.0824
+	RF	=	2.0288
+	LF	=	-0.9046
 
 At the last timestep, the solution is 
 	t	=	0.7100
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0010
-	alpha''	=	0.0044
-	psi	=	-0.0000
-	psi'	=	-0.0002
-	psi''	=	0.0108
+	phi	=	0.0077
+	phi'	=	-0.3656
+	phi''	=	-2.5802
+	theta	=	1.5583
+	theta'	=	0.1750
+	theta''	=	0.3308
+	alpha	=	1.5658
+	alpha'	=	0.2216
+	alpha''	=	9.0429
+	psi	=	0.0101
+	psi'	=	-0.1546
+	psi''	=	-35.8570
 
 
 
@@ -1951,25 +1951,25 @@ At the last timestep, the solution is
 Start time = 0.7100	End time = 0.7200
 
 Torque input is:
-	T	=	-0.0010
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0018
+	T	=	1.8633
+	SF	=	0.6964
+	RF	=	1.7298
+	LF	=	-0.3355
 
 At the last timestep, the solution is 
 	t	=	0.7200
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0009
-	alpha''	=	0.0071
-	psi	=	-0.0000
-	psi'	=	-0.0001
-	psi''	=	0.0088
+	phi	=	0.0040
+	phi'	=	-0.3821
+	phi''	=	-1.6420
+	theta	=	1.5601
+	theta'	=	0.1780
+	theta''	=	0.3270
+	alpha	=	1.5684
+	alpha'	=	0.3039
+	alpha''	=	8.3559
+	psi	=	0.0069
+	psi'	=	-0.4877
+	psi''	=	-33.7099
 
 
 
@@ -1978,25 +1978,25 @@ At the last timestep, the solution is
 Start time = 0.7200	End time = 0.7300
 
 Torque input is:
-	T	=	-0.0010
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0021
+	T	=	1.1942
+	SF	=	0.2805
+	RF	=	1.4183
+	LF	=	0.4219
 
 At the last timestep, the solution is 
 	t	=	0.7300
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0009
-	alpha''	=	0.0092
-	psi	=	-0.0000
-	psi'	=	0.0000
-	psi''	=	0.0069
+	phi	=	0.0001
+	phi'	=	-0.3884
+	phi''	=	-0.6267
+	theta	=	1.5619
+	theta'	=	0.1809
+	theta''	=	0.3070
+	alpha	=	1.5717
+	alpha'	=	0.3488
+	alpha''	=	4.6475
+	psi	=	0.0011
+	psi'	=	-0.6792
+	psi''	=	-19.6369
 
 
 
@@ -2005,25 +2005,25 @@ At the last timestep, the solution is
 Start time = 0.7300	End time = 0.7400
 
 Torque input is:
-	T	=	-0.0010
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0023
+	T	=	0.0478
+	SF	=	-0.1550
+	RF	=	1.0946
+	LF	=	1.2347
 
 At the last timestep, the solution is 
 	t	=	0.7400
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0007
-	alpha''	=	0.0107
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	0.0050
+	phi	=	-0.0037
+	phi'	=	-0.3842
+	phi''	=	0.4265
+	theta	=	1.5637
+	theta'	=	0.1834
+	theta''	=	0.2594
+	alpha	=	1.5751
+	alpha'	=	0.3349
+	alpha''	=	-1.2272
+	psi	=	-0.0055
+	psi'	=	-0.6435
+	psi''	=	3.0655
 
 
 
@@ -2032,25 +2032,25 @@ At the last timestep, the solution is
 Start time = 0.7400	End time = 0.7500
 
 Torque input is:
-	T	=	-0.0009
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0025
+	T	=	-1.2185
+	SF	=	-0.5985
+	RF	=	0.7593
+	LF	=	1.9325
 
 At the last timestep, the solution is 
 	t	=	0.7500
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0006
-	alpha''	=	0.0116
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	0.0035
+	phi	=	-0.0075
+	phi'	=	-0.3693
+	phi''	=	1.4804
+	theta	=	1.5655
+	theta'	=	0.1853
+	theta''	=	0.1852
+	alpha	=	1.5781
+	alpha'	=	0.2585
+	alpha''	=	-7.5002
+	psi	=	-0.0106
+	psi'	=	-0.3643
+	psi''	=	27.5061
 
 
 
@@ -2059,25 +2059,25 @@ At the last timestep, the solution is
 Start time = 0.7500	End time = 0.7600
 
 Torque input is:
-	T	=	-0.0009
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0025
+	T	=	-2.1512
+	SF	=	-1.0378
+	RF	=	0.4143
+	LF	=	2.3607
 
 At the last timestep, the solution is 
 	t	=	0.7600
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0005
-	alpha''	=	0.0119
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	0.0023
+	phi	=	-0.0111
+	phi'	=	-0.3441
+	phi''	=	2.5042
+	theta	=	1.5674
+	theta'	=	0.1863
+	theta''	=	0.0944
+	alpha	=	1.5801
+	alpha'	=	0.1375
+	alpha''	=	-12.0068
+	psi	=	-0.0119
+	psi'	=	0.0902
+	psi''	=	45.1844
 
 
 
@@ -2086,25 +2086,25 @@ At the last timestep, the solution is
 Start time = 0.7600	End time = 0.7700
 
 Torque input is:
-	T	=	-0.0008
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0024
+	T	=	-2.3479
+	SF	=	-1.4604
+	RF	=	0.0617
+	LF	=	2.4376
 
 At the last timestep, the solution is 
 	t	=	0.7700
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0004
-	alpha''	=	0.0117
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	0.0014
+	phi	=	-0.0143
+	phi'	=	-0.3092
+	phi''	=	3.4766
+	theta	=	1.5692
+	theta'	=	0.1863
+	theta''	=	0.0032
+	alpha	=	1.5808
+	alpha'	=	0.0083
+	alpha''	=	-12.8887
+	psi	=	-0.0086
+	psi'	=	0.5784
+	psi''	=	48.7507
 
 
 
@@ -2113,25 +2113,25 @@ At the last timestep, the solution is
 Start time = 0.7700	End time = 0.7800
 
 Torque input is:
-	T	=	-0.0007
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0023
+	T	=	-1.6112
+	SF	=	-1.8538
+	RF	=	-0.2965
+	LF	=	2.1943
 
 At the last timestep, the solution is 
 	t	=	0.7800
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0003
-	alpha''	=	0.0112
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	0.0008
+	phi	=	-0.0172
+	phi'	=	-0.2653
+	phi''	=	4.3852
+	theta	=	1.5711
+	theta'	=	0.1856
+	theta''	=	-0.0739
+	alpha	=	1.5804
+	alpha'	=	-0.0847
+	alpha''	=	-9.3110
+	psi	=	-0.0011
+	psi'	=	0.9259
+	psi''	=	34.8306
 
 
 
@@ -2140,25 +2140,25 @@ At the last timestep, the solution is
 Start time = 0.7800	End time = 0.7900
 
 Torque input is:
-	T	=	-0.0006
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0021
+	T	=	-0.0550
+	SF	=	-2.2058
+	RF	=	-0.6586
+	LF	=	1.7817
 
 At the last timestep, the solution is 
 	t	=	0.7900
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0002
-	alpha''	=	0.0103
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	0.0005
+	phi	=	-0.0196
+	phi'	=	-0.2131
+	phi''	=	5.2158
+	theta	=	1.5730
+	theta'	=	0.1841
+	theta''	=	-0.1319
+	alpha	=	1.5795
+	alpha'	=	-0.1037
+	alpha''	=	-1.9365
+	psi	=	0.0085
+	psi'	=	0.9836
+	psi''	=	5.9246
 
 
 
@@ -2167,25 +2167,25 @@ At the last timestep, the solution is
 Start time = 0.7900	End time = 0.8000
 
 Torque input is:
-	T	=	-0.0006
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0019
+	T	=	1.8848
+	SF	=	-2.5044
+	RF	=	-1.0234
+	LF	=	1.4340
 
 At the last timestep, the solution is 
 	t	=	0.8000
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0001
-	alpha''	=	0.0092
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	0.0003
+	phi	=	-0.0214
+	phi'	=	-0.1537
+	phi''	=	5.9489
+	theta	=	1.5748
+	theta'	=	0.1822
+	theta''	=	-0.1787
+	alpha	=	1.5788
+	alpha'	=	-0.0329
+	alpha''	=	7.0641
+	psi	=	0.0168
+	psi'	=	0.6873
+	psi''	=	-29.5270
 
 
 
@@ -2194,25 +2194,25 @@ At the last timestep, the solution is
 Start time = 0.8000	End time = 0.8100
 
 Torque input is:
-	T	=	-0.0005
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0017
+	T	=	3.5568
+	SF	=	-2.7385
+	RF	=	-1.3904
+	LF	=	1.3969
 
 At the last timestep, the solution is 
 	t	=	0.8100
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	0.0080
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	0.0002
+	phi	=	-0.0226
+	phi'	=	-0.0884
+	phi''	=	6.5513
+	theta	=	1.5766
+	theta'	=	0.1798
+	theta''	=	-0.2311
+	alpha	=	1.5792
+	alpha'	=	0.1122
+	alpha''	=	14.5522
+	psi	=	0.0207
+	psi'	=	0.0958
+	psi''	=	-59.2263
 
 
 
@@ -2221,25 +2221,25 @@ At the last timestep, the solution is
 Start time = 0.8100	End time = 0.8200
 
 Torque input is:
-	T	=	-0.0004
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0014
+	T	=	4.3012
+	SF	=	-2.8978
+	RF	=	-1.7587
+	LF	=	1.8373
 
 At the last timestep, the solution is 
 	t	=	0.8200
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0001
-	alpha''	=	0.0067
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	0.0001
+	phi	=	-0.0232
+	phi'	=	-0.0188
+	phi''	=	6.9760
+	theta	=	1.5784
+	theta'	=	0.1767
+	theta''	=	-0.3047
+	alpha	=	1.5812
+	alpha'	=	0.2853
+	alpha''	=	17.4252
+	psi	=	0.0182
+	psi'	=	-0.6108
+	psi''	=	-70.9565
 
 
 
@@ -2248,25 +2248,25 @@ At the last timestep, the solution is
 Start time = 0.8200	End time = 0.8300
 
 Torque input is:
-	T	=	-0.0003
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0012
+	T	=	3.6991
+	SF	=	-2.9737
+	RF	=	-2.1271
+	LF	=	2.7666
 
 At the last timestep, the solution is 
 	t	=	0.8300
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0001
-	alpha''	=	0.0055
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	-0.0000
+	phi	=	-0.0230
+	phi'	=	0.0528
+	phi''	=	7.1762
+	theta	=	1.5801
+	theta'	=	0.1728
+	theta''	=	-0.4017
+	alpha	=	1.5847
+	alpha'	=	0.4216
+	alpha''	=	13.8304
+	psi	=	0.0092
+	psi'	=	-1.1786
+	psi''	=	-57.3152
 
 
 
@@ -2275,25 +2275,25 @@ At the last timestep, the solution is
 Start time = 0.8300	End time = 0.8400
 
 Torque input is:
-	T	=	-0.0002
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0009
+	T	=	1.7770
+	SF	=	-2.9600
+	RF	=	-2.4930
+	LF	=	4.0083
 
 At the last timestep, the solution is 
 	t	=	0.8400
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0002
-	alpha''	=	0.0043
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	-0.0002
+	phi	=	-0.0221
+	phi'	=	0.1239
+	phi''	=	7.1124
+	theta	=	1.5818
+	theta'	=	0.1679
+	theta''	=	-0.5050
+	alpha	=	1.5891
+	alpha'	=	0.4599
+	alpha''	=	4.0503
+	psi	=	-0.0035
+	psi'	=	-1.3654
+	psi''	=	-19.3022
 
 
 
@@ -2302,25 +2302,25 @@ At the last timestep, the solution is
 Start time = 0.8400	End time = 0.8500
 
 Torque input is:
-	T	=	-0.0002
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0007
+	T	=	-0.9209
+	SF	=	-2.8534
+	RF	=	-2.8537
+	LF	=	5.2323
 
 At the last timestep, the solution is 
 	t	=	0.8500
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0002
-	alpha''	=	0.0032
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	-0.0004
+	phi	=	-0.0205
+	phi'	=	0.1918
+	phi''	=	6.7761
+	theta	=	1.5835
+	theta'	=	0.1620
+	theta''	=	-0.5886
+	alpha	=	1.5932
+	alpha'	=	0.3667
+	alpha''	=	-9.1108
+	psi	=	-0.0155
+	psi'	=	-1.0369
+	psi''	=	32.2391
 
 
 
@@ -2329,25 +2329,25 @@ At the last timestep, the solution is
 Start time = 0.8500	End time = 0.8600
 
 Torque input is:
-	T	=	-0.0001
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0005
+	T	=	-3.4494
+	SF	=	-2.6542
+	RF	=	-3.2069
+	LF	=	6.0536
 
 At the last timestep, the solution is 
 	t	=	0.8600
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0002
-	alpha''	=	0.0022
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	-0.0007
+	phi	=	-0.0183
+	phi'	=	0.2539
+	phi''	=	6.1930
+	theta	=	1.5851
+	theta'	=	0.1556
+	theta''	=	-0.6269
+	alpha	=	1.5958
+	alpha'	=	0.1543
+	alpha''	=	-21.1057
+	psi	=	-0.0218
+	psi'	=	-0.2387
+	psi''	=	79.4690
 
 
 
@@ -2356,25 +2356,25 @@ At the last timestep, the solution is
 Start time = 0.8600	End time = 0.8700
 
 Torque input is:
-	T	=	-0.0000
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0003
+	T	=	-4.7586
+	SF	=	-2.3660
+	RF	=	-3.5511
+	LF	=	6.1735
 
 At the last timestep, the solution is 
 	t	=	0.8700
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0002
-	alpha''	=	0.0013
-	psi	=	-0.0000
-	psi'	=	0.0001
-	psi''	=	-0.0010
+	phi	=	-0.0155
+	phi'	=	0.3083
+	phi''	=	5.4185
+	theta	=	1.5866
+	theta'	=	0.1491
+	theta''	=	-0.6164
+	alpha	=	1.5960
+	alpha'	=	-0.1156
+	alpha''	=	-26.9972
+	psi	=	-0.0191
+	psi'	=	0.7904
+	psi''	=	102.9545
 
 
 
@@ -2383,25 +2383,25 @@ At the last timestep, the solution is
 Start time = 0.8700	End time = 0.8800
 
 Torque input is:
-	T	=	0.0001
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0001
+	T	=	-4.0905
+	SF	=	-1.9957
+	RF	=	-3.8867
+	LF	=	5.5111
 
 At the last timestep, the solution is 
 	t	=	0.8800
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0002
-	alpha''	=	0.0004
-	psi	=	0.0000
-	psi'	=	0.0001
-	psi''	=	-0.0014
+	phi	=	-0.0122
+	phi'	=	0.3537
+	phi''	=	4.5206
+	theta	=	1.5880
+	theta'	=	0.1428
+	theta''	=	-0.5838
+	alpha	=	1.5937
+	alpha'	=	-0.3479
+	alpha''	=	-23.3541
+	psi	=	-0.0068
+	psi'	=	1.6768
+	psi''	=	89.0618
 
 
 
@@ -2410,25 +2410,25 @@ At the last timestep, the solution is
 Start time = 0.8800	End time = 0.8900
 
 Torque input is:
-	T	=	0.0001
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0001
+	T	=	-1.3384
+	SF	=	-1.5526
+	RF	=	-4.2149
+	LF	=	4.2764
 
 At the last timestep, the solution is 
 	t	=	0.8900
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0002
-	alpha''	=	-0.0003
-	psi	=	0.0000
-	psi'	=	0.0001
-	psi''	=	-0.0016
+	phi	=	-0.0085
+	phi'	=	0.3892
+	phi''	=	3.5501
+	theta	=	1.5894
+	theta'	=	0.1369
+	theta''	=	-0.5673
+	alpha	=	1.5898
+	alpha'	=	-0.4450
+	alpha''	=	-9.8944
+	psi	=	0.0118
+	psi'	=	2.0356
+	psi''	=	36.4699
 
 
 
@@ -2437,25 +2437,25 @@ At the last timestep, the solution is
 Start time = 0.8900	End time = 0.9000
 
 Torque input is:
-	T	=	0.0002
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0003
+	T	=	2.7793
+	SF	=	-1.0477
+	RF	=	-4.5366
+	LF	=	2.9431
 
 At the last timestep, the solution is 
 	t	=	0.9000
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0002
-	alpha''	=	-0.0009
-	psi	=	0.0000
-	psi'	=	0.0001
-	psi''	=	-0.0018
+	phi	=	-0.0044
+	phi'	=	0.4143
+	phi''	=	2.5254
+	theta	=	1.5908
+	theta'	=	0.1308
+	theta''	=	-0.6044
+	alpha	=	1.5858
+	alpha'	=	-0.3461
+	alpha''	=	9.7187
+	psi	=	0.0301
+	psi'	=	1.6238
+	psi''	=	-40.6508
 
 
 
@@ -2464,25 +2464,25 @@ At the last timestep, the solution is
 Start time = 0.9000	End time = 0.9100
 
 Torque input is:
-	T	=	0.0002
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0004
+	T	=	6.8417
+	SF	=	-0.4931
+	RF	=	-4.8511
+	LF	=	2.1104
 
 At the last timestep, the solution is 
 	t	=	0.9100
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0002
-	alpha''	=	-0.0014
-	psi	=	0.0000
-	psi'	=	0.0001
-	psi''	=	-0.0019
+	phi	=	-0.0002
+	phi'	=	0.4282
+	phi''	=	1.4196
+	theta	=	1.5921
+	theta'	=	0.1240
+	theta''	=	-0.7086
+	alpha	=	1.5838
+	alpha'	=	-0.0596
+	alpha''	=	28.5726
+	psi	=	0.0405
+	psi'	=	0.4691
+	psi''	=	-115.2537
 
 
 
@@ -2491,25 +2491,25 @@ At the last timestep, the solution is
 Start time = 0.9100	End time = 0.9200
 
 Torque input is:
-	T	=	0.0002
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0005
+	T	=	9.1639
+	SF	=	0.0971
+	RF	=	-5.1555
+	LF	=	2.2833
 
 At the last timestep, the solution is 
 	t	=	0.9200
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0002
-	alpha''	=	-0.0019
-	psi	=	0.0000
-	psi'	=	0.0000
-	psi''	=	-0.0019
+	phi	=	0.0041
+	phi'	=	0.4297
+	phi''	=	0.1717
+	theta	=	1.5933
+	theta'	=	0.1159
+	theta''	=	-0.8455
+	alpha	=	1.5851
+	alpha'	=	0.3260
+	alpha''	=	38.6406
+	psi	=	0.0375
+	psi'	=	-1.0861
+	psi''	=	-155.7798
 
 
 
@@ -2518,25 +2518,25 @@ At the last timestep, the solution is
 Start time = 0.9200	End time = 0.9300
 
 Torque input is:
-	T	=	0.0003
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0005
+	T	=	8.4432
+	SF	=	0.7072
+	RF	=	-5.4452
+	LF	=	3.6429
 
 At the last timestep, the solution is 
 	t	=	0.9300
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0002
-	alpha''	=	-0.0022
-	psi	=	0.0000
-	psi'	=	0.0000
-	psi''	=	-0.0018
+	phi	=	0.0083
+	phi'	=	0.4168
+	phi''	=	-1.2717
+	theta	=	1.5944
+	theta'	=	0.1067
+	theta''	=	-0.9523
+	alpha	=	1.5900
+	alpha'	=	0.6630
+	alpha''	=	33.9328
+	psi	=	0.0197
+	psi'	=	-2.4639
+	psi''	=	-138.4920
 
 
 
@@ -2545,25 +2545,25 @@ At the last timestep, the solution is
 Start time = 0.9300	End time = 0.9400
 
 Torque input is:
-	T	=	0.0003
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0006
+	T	=	4.3890
+	SF	=	1.3178
+	RF	=	-5.7162
+	LF	=	5.9014
 
 At the last timestep, the solution is 
 	t	=	0.9400
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0001
-	alpha''	=	-0.0025
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	-0.0017
+	phi	=	0.0123
+	phi'	=	0.3878
+	phi''	=	-2.9093
+	theta	=	1.5954
+	theta'	=	0.0969
+	theta''	=	-0.9703
+	alpha	=	1.5973
+	alpha'	=	0.7948
+	alpha''	=	13.5035
+	psi	=	-0.0078
+	psi'	=	-3.0469
+	psi''	=	-59.3129
 
 
 
@@ -2572,25 +2572,25 @@ At the last timestep, the solution is
 Start time = 0.9400	End time = 0.9500
 
 Torque input is:
-	T	=	0.0003
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0006
+	T	=	-1.9360
+	SF	=	1.9064
+	RF	=	-5.9671
+	LF	=	8.3244
 
 At the last timestep, the solution is 
 	t	=	0.9500
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0001
-	alpha''	=	-0.0026
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	-0.0014
+	phi	=	0.0160
+	phi'	=	0.3415
+	phi''	=	-4.6496
+	theta	=	1.5963
+	theta'	=	0.0875
+	theta''	=	-0.8839
+	alpha	=	1.6044
+	alpha'	=	0.6209
+	alpha''	=	-17.0436
+	psi	=	-0.0352
+	psi'	=	-2.4343
+	psi''	=	60.1428
 
 
 
@@ -2599,25 +2599,25 @@ At the last timestep, the solution is
 Start time = 0.9500	End time = 0.9600
 
 Torque input is:
-	T	=	0.0002
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0006
+	T	=	-8.2770
+	SF	=	2.4474
+	RF	=	-6.1996
+	LF	=	9.9466
 
 At the last timestep, the solution is 
 	t	=	0.9600
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0001
-	alpha''	=	-0.0027
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	-0.0011
+	phi	=	0.0191
+	phi'	=	0.2787
+	phi''	=	-6.3090
+	theta	=	1.5971
+	theta'	=	0.0794
+	theta''	=	-0.7503
+	alpha	=	1.6083
+	alpha'	=	0.1515
+	alpha''	=	-46.7592
+	psi	=	-0.0507
+	psi'	=	-0.6576
+	psi''	=	177.0591
 
 
 
@@ -2626,25 +2626,25 @@ At the last timestep, the solution is
 Start time = 0.9600	End time = 0.9700
 
 Torque input is:
-	T	=	0.0002
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0006
+	T	=	-11.8988
+	SF	=	2.9142
+	RF	=	-6.4182
+	LF	=	9.9355
 
 At the last timestep, the solution is 
 	t	=	0.9700
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0001
-	alpha''	=	-0.0027
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	-0.0008
+	phi	=	0.0215
+	phi'	=	0.2023
+	phi''	=	-7.6610
+	theta	=	1.5979
+	theta'	=	0.0724
+	theta''	=	-0.6633
+	alpha	=	1.6066
+	alpha'	=	-0.4756
+	alpha''	=	-62.8742
+	psi	=	-0.0452
+	psi'	=	1.7491
+	psi''	=	241.1986
 
 
 
@@ -2653,25 +2653,25 @@ At the last timestep, the solution is
 Start time = 0.9700	End time = 0.9800
 
 Torque input is:
-	T	=	0.0002
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0006
+	T	=	-10.6562
+	SF	=	3.2828
+	RF	=	-6.6261
+	LF	=	7.9708
 
 At the last timestep, the solution is 
 	t	=	0.9800
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0000
-	alpha''	=	-0.0026
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	-0.0005
+	phi	=	0.0231
+	phi'	=	0.1173
+	phi''	=	-8.5008
+	theta	=	1.5986
+	theta'	=	0.0655
+	theta''	=	-0.6985
+	alpha	=	1.5991
+	alpha'	=	-1.0264
+	alpha''	=	-55.5658
+	psi	=	-0.0171
+	psi'	=	3.8706
+	psi''	=	213.6497
 
 
 
@@ -2680,25 +2680,25 @@ At the last timestep, the solution is
 Start time = 0.9800	End time = 0.9900
 
 Torque input is:
-	T	=	0.0002
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0005
+	T	=	-4.0480
+	SF	=	3.5346
+	RF	=	-6.8232
+	LF	=	4.4879
 
 At the last timestep, the solution is 
 	t	=	0.9900
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0000
-	alpha''	=	-0.0024
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	-0.0003
+	phi	=	0.0238
+	phi'	=	0.0299
+	phi''	=	-8.7268
+	theta	=	1.5992
+	theta'	=	0.0576
+	theta''	=	-0.8473
+	alpha	=	1.5878
+	alpha'	=	-1.2483
+	alpha''	=	-22.7416
+	psi	=	0.0258
+	psi'	=	4.7114
+	psi''	=	85.7515
 
 
 
@@ -2707,25 +2707,25 @@ At the last timestep, the solution is
 Start time = 0.9900	End time = 1.0000
 
 Torque input is:
-	T	=	0.0001
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0004
+	T	=	6.1806
+	SF	=	3.6590
+	RF	=	-7.0043
+	LF	=	0.6665
 
 At the last timestep, the solution is 
 	t	=	1.0000
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	-0.0021
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	-0.0000
+	phi	=	0.0237
+	phi'	=	-0.0544
+	phi''	=	-8.3979
+	theta	=	1.5997
+	theta'	=	0.0480
+	theta''	=	-1.0255
+	alpha	=	1.5767
+	alpha'	=	-0.9766
+	alpha''	=	26.6562
+	psi	=	0.0674
+	psi'	=	3.6169
+	psi''	=	-107.9290
 
 
 
@@ -2734,25 +2734,25 @@ At the last timestep, the solution is
 Start time = 1.0000	End time = 1.0100
 
 Torque input is:
-	T	=	0.0001
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	0.0004
+	T	=	16.2613
+	SF	=	3.6544
+	RF	=	-7.1624
+	LF	=	-1.9042
 
 At the last timestep, the solution is 
 	t	=	1.0100
-	phi	=	-0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	-0.0018
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0001
+	phi	=	0.0227
+	phi'	=	-0.1322
+	phi''	=	-7.7573
+	theta	=	1.6002
+	theta'	=	0.0371
+	theta''	=	-1.0889
+	alpha	=	1.5706
+	alpha'	=	-0.2323
+	alpha''	=	74.2002
+	psi	=	0.0887
+	psi'	=	0.6576
+	psi''	=	-295.2316
 
 
 
@@ -2761,25 +2761,25 @@ At the last timestep, the solution is
 Start time = 1.0100	End time = 1.0200
 
 Torque input is:
-	T	=	0.0001
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0003
+	T	=	21.6063
+	SF	=	3.5252
+	RF	=	-7.2929
+	LF	=	-1.8424
 
 At the last timestep, the solution is 
 	t	=	1.0200
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	-0.0014
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0003
+	phi	=	0.0211
+	phi'	=	-0.2035
+	phi''	=	-7.1135
+	theta	=	1.6005
+	theta'	=	0.0266
+	theta''	=	-0.9829
+	alpha	=	1.5732
+	alpha'	=	0.7450
+	alpha''	=	97.9152
+	psi	=	0.0758
+	psi'	=	-3.2357
+	psi''	=	-389.9116
 
 
 
@@ -2788,25 +2788,25 @@ At the last timestep, the solution is
 Start time = 1.0200	End time = 1.0300
 
 Torque input is:
-	T	=	0.0000
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0002
+	T	=	18.6957
+	SF	=	3.2787
+	RF	=	-7.3971
+	LF	=	1.3478
 
 At the last timestep, the solution is 
 	t	=	1.0300
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0001
-	alpha''	=	-0.0011
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0004
+	phi	=	0.0187
+	phi'	=	-0.2705
+	phi''	=	-6.7160
+	theta	=	1.6007
+	theta'	=	0.0177
+	theta''	=	-0.7584
+	alpha	=	1.5847
+	alpha'	=	1.5552
+	alpha''	=	81.5248
+	psi	=	0.0272
+	psi'	=	-6.4958
+	psi''	=	-327.4970
 
 
 
@@ -2815,25 +2815,25 @@ At the last timestep, the solution is
 Start time = 1.0300	End time = 1.0400
 
 Torque input is:
-	T	=	0.0000
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0001
+	T	=	6.9425
+	SF	=	2.9196
+	RF	=	-7.4815
+	LF	=	6.8436
 
 At the last timestep, the solution is 
 	t	=	1.0400
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0001
-	alpha''	=	-0.0007
-	psi	=	0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0004
+	phi	=	0.0157
+	phi'	=	-0.3362
+	phi''	=	-6.6023
+	theta	=	1.6008
+	theta'	=	0.0110
+	theta''	=	-0.5798
+	alpha	=	1.6013
+	alpha'	=	1.7815
+	alpha''	=	23.2767
+	psi	=	-0.0426
+	psi'	=	-7.4795
+	psi''	=	-100.2321
 
 
 
@@ -2842,25 +2842,25 @@ At the last timestep, the solution is
 Start time = 1.0400	End time = 1.0500
 
 Torque input is:
-	T	=	-0.0000
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0001
+	T	=	-10.3087
+	SF	=	2.4486
+	RF	=	-7.5538
+	LF	=	12.5555
 
 At the last timestep, the solution is 
 	t	=	1.0500
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0001
-	alpha''	=	-0.0004
-	psi	=	-0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0004
+	phi	=	0.0120
+	phi'	=	-0.4013
+	phi''	=	-6.5472
+	theta	=	1.6009
+	theta'	=	0.0049
+	theta''	=	-0.6267
+	alpha	=	1.6162
+	alpha'	=	1.1855
+	alpha''	=	-58.7812
+	psi	=	-0.1061
+	psi'	=	-5.2314
+	psi''	=	222.1948
 
 
 
@@ -2869,25 +2869,25 @@ At the last timestep, the solution is
 Start time = 1.0500	End time = 1.0600
 
 Torque input is:
-	T	=	-0.0000
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	0.0000
+	T	=	-26.3653
+	SF	=	1.8637
+	RF	=	-7.6157
+	LF	=	15.7898
 
 At the last timestep, the solution is 
 	t	=	1.0600
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0001
-	alpha''	=	-0.0001
-	psi	=	-0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0005
+	phi	=	0.0077
+	phi'	=	-0.4624
+	phi''	=	-6.1140
+	theta	=	1.6009
+	theta'	=	-0.0035
+	theta''	=	-1.0209
+	alpha	=	1.6214
+	alpha'	=	-0.1429
+	alpha''	=	-132.5384
+	psi	=	-0.1327
+	psi'	=	-0.0811
+	psi''	=	514.0240
 
 
 
@@ -2896,25 +2896,25 @@ At the last timestep, the solution is
 Start time = 1.0600	End time = 1.0700
 
 Torque input is:
-	T	=	-0.0000
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0001
+	T	=	-33.5126
+	SF	=	1.1658
+	RF	=	-7.6580
+	LF	=	14.3705
 
 At the last timestep, the solution is 
 	t	=	1.0700
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0001
-	alpha''	=	0.0002
-	psi	=	-0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0005
+	phi	=	0.0028
+	phi'	=	-0.5110
+	phi''	=	-4.8193
+	theta	=	1.6008
+	theta'	=	-0.0174
+	theta''	=	-1.6830
+	alpha	=	1.6118
+	alpha'	=	-1.7670
+	alpha''	=	-163.5799
+	psi	=	-0.1018
+	psi'	=	6.2718
+	psi''	=	639.2775
 
 
 
@@ -2923,25 +2923,25 @@ At the last timestep, the solution is
 Start time = 1.0700	End time = 1.0800
 
 Torque input is:
-	T	=	-0.0001
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0001
+	T	=	-26.3010
+	SF	=	0.3669
+	RF	=	-7.6606
+	LF	=	7.7224
 
 At the last timestep, the solution is 
 	t	=	1.0800
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0001
-	alpha''	=	0.0004
-	psi	=	-0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0005
+	phi	=	-0.0024
+	phi'	=	-0.5355
+	phi''	=	-2.3577
+	theta	=	1.6006
+	theta'	=	-0.0373
+	theta''	=	-2.2156
+	alpha	=	1.5880
+	alpha'	=	-3.0075
+	alpha''	=	-125.5135
+	psi	=	-0.0147
+	psi'	=	11.1610
+	psi''	=	493.5689
 
 
 
@@ -2950,25 +2950,25 @@ At the last timestep, the solution is
 Start time = 1.0800	End time = 1.0900
 
 Torque input is:
-	T	=	-0.0001
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0001
+	T	=	-4.5751
+	SF	=	-0.5034
+	RF	=	-7.6017
+	LF	=	-2.5029
 
 At the last timestep, the solution is 
 	t	=	1.0900
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0001
-	alpha''	=	0.0006
-	psi	=	-0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0004
+	phi	=	-0.0078
+	phi'	=	-0.5250
+	phi''	=	1.1474
+	theta	=	1.6001
+	theta'	=	-0.0600
+	theta''	=	-2.2730
+	alpha	=	1.5571
+	alpha'	=	-3.1711
+	alpha''	=	-17.3724
+	psi	=	0.1003
+	psi'	=	11.8540
+	psi''	=	72.0042
 
 
 
@@ -2977,25 +2977,25 @@ At the last timestep, the solution is
 Start time = 1.0900	End time = 1.1000
 
 Torque input is:
-	T	=	-0.0001
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0002
+	T	=	24.9354
+	SF	=	-1.3954
+	RF	=	-7.4720
+	LF	=	-12.5105
 
 At the last timestep, the solution is 
 	t	=	1.1000
-	phi	=	0.0000
-	phi'	=	0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	0.0007
-	psi	=	-0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0004
+	phi	=	-0.0128
+	phi'	=	-0.4754
+	phi''	=	4.9563
+	theta	=	1.5994
+	theta'	=	-0.0793
+	theta''	=	-1.6838
+	alpha	=	1.5317
+	alpha'	=	-1.9172
+	alpha''	=	123.9006
+	psi	=	0.1944
+	psi'	=	6.9845
+	psi''	=	-482.1647
 
 
 
@@ -3004,25 +3004,25 @@ At the last timestep, the solution is
 Start time = 1.1000	End time = 1.1100
 
 Torque input is:
-	T	=	-0.0001
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0002
+	T	=	49.9069
+	SF	=	-2.2459
+	RF	=	-7.2853
+	LF	=	-17.5874
 
 At the last timestep, the solution is 
 	t	=	1.1100
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	0.0008
-	psi	=	-0.0000
-	psi'	=	-0.0000
-	psi''	=	0.0004
+	phi	=	-0.0171
+	phi'	=	-0.3931
+	phi''	=	8.1171
+	theta	=	1.5985
+	theta'	=	-0.0907
+	theta''	=	-0.8109
+	alpha	=	1.5245
+	alpha'	=	0.4751
+	alpha''	=	238.7829
+	psi	=	0.2174
+	psi'	=	-2.3912
+	psi''	=	-936.0242
 
 
 
@@ -3031,25 +3031,25 @@ At the last timestep, the solution is
 Start time = 1.1100	End time = 1.1200
 
 Torque input is:
-	T	=	-0.0001
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0002
+	T	=	57.1056
+	SF	=	-2.9930
+	RF	=	-7.0724
+	LF	=	-14.2927
 
 At the last timestep, the solution is 
 	t	=	1.1200
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	0.0008
-	psi	=	-0.0000
-	psi'	=	0.0000
-	psi''	=	0.0004
+	phi	=	-0.0205
+	phi'	=	-0.2923
+	phi''	=	9.9057
+	theta	=	1.5976
+	theta'	=	-0.0949
+	theta''	=	-0.2663
+	alpha	=	1.5426
+	alpha'	=	3.1485
+	alpha''	=	269.5582
+	psi	=	0.1409
+	psi'	=	-12.9269
+	psi''	=	-1061.1324
 
 
 
@@ -3058,25 +3058,25 @@ At the last timestep, the solution is
 Start time = 1.1200	End time = 1.1300
 
 Torque input is:
-	T	=	-0.0001
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0002
+	T	=	38.4684
+	SF	=	-3.5920
+	RF	=	-6.8594
+	LF	=	-2.3129
 
 At the last timestep, the solution is 
 	t	=	1.1300
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	0.0009
-	psi	=	-0.0000
-	psi'	=	0.0000
-	psi''	=	0.0004
+	phi	=	-0.0229
+	phi'	=	-0.1904
+	phi''	=	9.9974
+	theta	=	1.5966
+	theta'	=	-0.0978
+	theta''	=	-0.4328
+	alpha	=	1.5827
+	alpha'	=	4.8728
+	alpha''	=	173.4044
+	psi	=	-0.0226
+	psi'	=	-19.7900
+	psi''	=	-688.2997
 
 
 
@@ -3085,25 +3085,25 @@ At the last timestep, the solution is
 Start time = 1.1300	End time = 1.1400
 
 Torque input is:
-	T	=	-0.0001
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0002
+	T	=	-3.7790
+	SF	=	-4.0248
+	RF	=	-6.6476
+	LF	=	14.6469
 
 At the last timestep, the solution is 
 	t	=	1.1400
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	0.0008
-	psi	=	-0.0000
-	psi'	=	0.0000
-	psi''	=	0.0003
+	phi	=	-0.0244
+	phi'	=	-0.1021
+	phi''	=	8.7433
+	theta	=	1.5956
+	theta'	=	-0.1055
+	theta''	=	-1.0781
+	alpha	=	1.6296
+	alpha'	=	4.5118
+	alpha''	=	-34.9961
+	psi	=	-0.2140
+	psi'	=	-18.4948
+	psi''	=	127.1773
 
 
 
@@ -3112,25 +3112,25 @@ At the last timestep, the solution is
 Start time = 1.1400	End time = 1.1500
 
 Torque input is:
-	T	=	-0.0001
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0002
+	T	=	-54.9174
+	SF	=	-4.3006
+	RF	=	-6.4133
+	LF	=	29.2389
 
 At the last timestep, the solution is 
 	t	=	1.1500
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	0.0008
-	psi	=	-0.0000
-	psi'	=	0.0000
-	psi''	=	0.0002
+	phi	=	-0.0251
+	phi'	=	-0.0309
+	phi''	=	7.2493
+	theta	=	1.5945
+	theta'	=	-0.1192
+	theta''	=	-1.5971
+	alpha	=	1.6610
+	alpha'	=	1.7885
+	alpha''	=	-267.5640
+	psi	=	-0.3456
+	psi'	=	-7.8782
+	psi''	=	1044.7893
 
 
 
@@ -3139,25 +3139,25 @@ At the last timestep, the solution is
 Start time = 1.1500	End time = 1.1600
 
 Torque input is:
-	T	=	-0.0001
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0002
+	T	=	-91.8909
+	SF	=	-4.4439
+	RF	=	-6.1290
+	LF	=	33.4523
 
 At the last timestep, the solution is 
 	t	=	1.1600
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	-0.0000
-	alpha''	=	0.0007
-	psi	=	-0.0000
-	psi'	=	0.0000
-	psi''	=	0.0002
+	phi	=	-0.0251
+	phi'	=	0.0320
+	phi''	=	6.6177
+	theta	=	1.5932
+	theta'	=	-0.1347
+	theta''	=	-1.4750
+	alpha	=	1.6574
+	alpha'	=	-2.5133
+	alpha''	=	-432.6360
+	psi	=	-0.3398
+	psi'	=	9.0473
+	psi''	=	1701.3933
 
 
 
@@ -3166,25 +3166,25 @@ At the last timestep, the solution is
 Start time = 1.1600	End time = 1.1700
 
 Torque input is:
-	T	=	-0.0000
-	SF	=	0.0000
-	RF	=	-0.0000
-	LF	=	-0.0001
+	T	=	-93.2016
+	SF	=	-4.4729
+	RF	=	-5.7866
+	LF	=	22.7044
 
 At the last timestep, the solution is 
 	t	=	1.1700
-	phi	=	0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0000
-	alpha''	=	0.0006
-	psi	=	-0.0000
-	psi'	=	0.0000
-	psi''	=	0.0001
+	phi	=	-0.0244
+	phi'	=	0.1031
+	phi''	=	7.5231
+	theta	=	1.5918
+	theta'	=	-0.1448
+	theta''	=	-0.5724
+	alpha	=	1.6107
+	alpha'	=	-6.8473
+	alpha''	=	-441.9381
+	psi	=	-0.1642
+	psi'	=	26.1877
+	psi''	=	1743.5106
 
 
 
@@ -3193,25 +3193,25 @@ At the last timestep, the solution is
 Start time = 1.1700	End time = 1.1800
 
 Torque input is:
-	T	=	-0.0000
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0001
+	T	=	-48.4767
+	SF	=	-4.3826
+	RF	=	-5.4070
+	LF	=	-2.1276
 
 At the last timestep, the solution is 
 	t	=	1.1800
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0000
-	alpha''	=	0.0005
-	psi	=	-0.0000
-	psi'	=	0.0000
-	psi''	=	0.0000
+	phi	=	-0.0229
+	phi'	=	0.1980
+	phi''	=	9.8282
+	theta	=	1.5904
+	theta'	=	-0.1430
+	theta''	=	0.8077
+	alpha	=	1.5317
+	alpha'	=	-8.9432
+	alpha''	=	-204.1249
+	psi	=	0.1401
+	psi'	=	34.6072
+	psi''	=	816.7207
 
 
 
@@ -3220,25 +3220,25 @@ At the last timestep, the solution is
 Start time = 1.1800	End time = 1.1900
 
 Torque input is:
-	T	=	-0.0000
-	SF	=	-0.0000
-	RF	=	-0.0000
-	LF	=	-0.0001
+	T	=	33.1704
+	SF	=	-4.1386
+	RF	=	-5.0348
+	LF	=	-33.0665
 
 At the last timestep, the solution is 
 	t	=	1.1900
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	-0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0000
-	alpha''	=	0.0004
-	psi	=	-0.0000
-	psi'	=	0.0000
-	psi''	=	-0.0000
+	phi	=	-0.0203
+	phi'	=	0.3201
+	phi''	=	12.0924
+	theta	=	1.5890
+	theta'	=	-0.1290
+	theta''	=	1.7208
+	alpha	=	1.4522
+	alpha'	=	-6.9768
+	alpha''	=	191.6884
+	psi	=	0.4484
+	psi'	=	27.0845
+	psi''	=	-737.9489
 
 
 
@@ -3247,25 +3247,565 @@ At the last timestep, the solution is
 Start time = 1.1900	End time = 1.2000
 
 Torque input is:
-	T	=	-0.0000
-	SF	=	-0.0000
-	RF	=	0.0000
-	LF	=	-0.0001
+	T	=	119.3822
+	SF	=	-3.6886
+	RF	=	-4.7163
+	LF	=	-55.4753
 
 At the last timestep, the solution is 
 	t	=	1.2000
-	phi	=	-0.0000
-	phi'	=	-0.0000
-	phi''	=	-0.0000
-	theta	=	1.5708
-	theta'	=	-0.0000
-	theta''	=	0.0000
-	alpha	=	1.5708
-	alpha'	=	0.0000
-	alpha''	=	0.0003
-	psi	=	-0.0000
-	psi'	=	0.0000
-	psi''	=	-0.0001
+	phi	=	-0.0164
+	phi'	=	0.4533
+	phi''	=	12.8483
+	theta	=	1.5878
+	theta'	=	-0.1138
+	theta''	=	1.0735
+	alpha	=	1.4106
+	alpha'	=	-1.4133
+	alpha''	=	538.9430
+	psi	=	0.6085
+	psi'	=	5.2124
+	psi''	=	-2123.4570
 
+
+
+			Timestep 121
+
+Start time = 1.2000	End time = 1.2100
+
+Torque input is:
+	T	=	168.2376
+	SF	=	-2.9940
+	RF	=	-4.4581
+	LF	=	-56.7708
+
+At the last timestep, the solution is 
+	t	=	1.2100
+	phi	=	-0.0113
+	phi'	=	0.5748
+	phi''	=	11.6848
+	theta	=	1.5867
+	theta'	=	-0.1163
+	theta''	=	-1.6128
+	alpha	=	1.4334
+	alpha'	=	6.0281
+	alpha''	=	767.4484
+	psi	=	0.5142
+	psi'	=	-24.2908
+	psi''	=	-3036.2129
+
+
+
+			Timestep 122
+
+Start time = 1.2100	End time = 1.2200
+
+Torque input is:
+	T	=	148.1065
+	SF	=	-2.0530
+	RF	=	-4.1950
+	LF	=	-32.6867
+
+At the last timestep, the solution is 
+	t	=	1.2200
+	phi	=	-0.0051
+	phi'	=	0.6573
+	phi''	=	7.5122
+	theta	=	1.5854
+	theta'	=	-0.1526
+	theta''	=	-5.3802
+	alpha	=	1.5277
+	alpha'	=	12.9293
+	alpha''	=	713.9296
+	psi	=	0.1362
+	psi'	=	-51.6816
+	psi''	=	-2819.6393
+
+
+
+			Timestep 123
+
+Start time = 1.2200	End time = 1.2300
+
+Torque input is:
+	T	=	47.6471
+	SF	=	-0.9086
+	RF	=	-3.8003
+	LF	=	13.7699
+
+At the last timestep, the solution is 
+	t	=	1.2300
+	phi	=	0.0015
+	phi'	=	0.6680
+	phi''	=	0.1402
+	theta	=	1.5835
+	theta'	=	-0.2156
+	theta''	=	-6.9281
+	alpha	=	1.6663
+	alpha'	=	14.6672
+	alpha''	=	130.0562
+	psi	=	-0.4190
+	psi'	=	-58.8056
+	psi''	=	-532.7051
+
+
+
+			Timestep 124
+
+Start time = 1.2300	End time = 1.2400
+
+Torque input is:
+	T	=	-107.3587
+	SF	=	0.3378
+	RF	=	-3.1617
+	LF	=	65.7801
+
+At the last timestep, the solution is 
+	t	=	1.2400
+	phi	=	0.0079
+	phi'	=	0.6085
+	phi''	=	-5.3054
+	theta	=	1.5811
+	theta'	=	-0.2669
+	theta''	=	-3.9380
+	alpha	=	1.7839
+	alpha'	=	9.0093
+	alpha''	=	-517.5031
+	psi	=	-0.8934
+	psi'	=	-36.6293
+	psi''	=	2045.8914
+
+
+
+			Timestep 125
+
+Start time = 1.2400	End time = 1.2500
+
+Torque input is:
+	T	=	-247.2381
+	SF	=	1.5472
+	RF	=	-2.3166
+	LF	=	94.1389
+
+At the last timestep, the solution is 
+	t	=	1.2500
+	phi	=	0.0135
+	phi'	=	0.5235
+	phi''	=	-6.8200
+	theta	=	1.5783
+	theta'	=	-0.2756
+	theta''	=	0.9289
+	alpha	=	1.8232
+	alpha'	=	-0.9695
+	alpha''	=	-964.9771
+	psi	=	-1.0562
+	psi'	=	3.3925
+	psi''	=	3879.3816
+
+
+
+			Timestep 126
+
+Start time = 1.2500	End time = 1.2600
+
+Torque input is:
+	T	=	-304.1827
+	SF	=	2.6309
+	RF	=	-1.4521
+	LF	=	84.4632
+
+At the last timestep, the solution is 
+	t	=	1.2600
+	phi	=	0.0184
+	phi'	=	0.4443
+	phi''	=	-6.4461
+	theta	=	1.5757
+	theta'	=	-0.2393
+	theta''	=	5.0431
+	alpha	=	1.7535
+	alpha'	=	-13.3351
+	alpha''	=	-1350.9448
+	psi	=	-0.7802
+	psi'	=	53.2060
+	psi''	=	5405.5265
+
+
+
+			Timestep 127
+
+Start time = 1.2600	End time = 1.2700
+
+Torque input is:
+	T	=	-236.8181
+	SF	=	3.5738
+	RF	=	-0.7441
+	LF	=	34.7066
+
+At the last timestep, the solution is 
+	t	=	1.2700
+	phi	=	0.0224
+	phi'	=	0.3763
+	phi''	=	-5.9220
+	theta	=	1.5737
+	theta'	=	-0.1782
+	theta''	=	6.2041
+	alpha	=	1.5644
+	alpha'	=	-24.6065
+	alpha''	=	-1095.6078
+	psi	=	-0.0246
+	psi'	=	98.1755
+	psi''	=	4333.9708
+
+
+
+			Timestep 128
+
+Start time = 1.2700	End time = 1.2800
+
+Torque input is:
+	T	=	-28.4307
+	SF	=	4.3917
+	RF	=	-0.2763
+	LF	=	-53.3632
+
+At the last timestep, the solution is 
+	t	=	1.2800
+	phi	=	0.0259
+	phi'	=	0.3070
+	phi''	=	-7.0573
+	theta	=	1.5721
+	theta'	=	-0.1373
+	theta''	=	2.0673
+	alpha	=	1.3235
+	alpha'	=	-23.0131
+	alpha''	=	283.5828
+	psi	=	0.9393
+	psi'	=	92.2886
+	psi''	=	-1117.4487
+
+
+
+			Timestep 129
+
+Start time = 1.2800	End time = 1.2900
+
+Torque input is:
+	T	=	251.9582
+	SF	=	5.0921
+	RF	=	0.0254
+	LF	=	-138.9747
+
+At the last timestep, the solution is 
+	t	=	1.2900
+	phi	=	0.0285
+	phi'	=	0.2178
+	phi''	=	-9.4649
+	theta	=	1.5707
+	theta'	=	-0.1466
+	theta''	=	-2.7803
+	alpha	=	1.1530
+	alpha'	=	-11.9556
+	alpha''	=	885.3101
+	psi	=	1.6197
+	psi'	=	47.0203
+	psi''	=	-3706.0201
+
+
+
+			Timestep 130
+
+Start time = 1.2900	End time = 1.3000
+
+Torque input is:
+	T	=	465.4870
+	SF	=	5.6481
+	RF	=	0.3931
+	LF	=	-171.3602
+
+At the last timestep, the solution is 
+	t	=	1.3000
+	phi	=	0.0301
+	phi'	=	0.0967
+	phi''	=	-13.4321
+	theta	=	1.5691
+	theta'	=	-0.1904
+	theta''	=	-4.8880
+	alpha	=	1.0995
+	alpha'	=	0.8402
+	alpha''	=	1203.7555
+	psi	=	1.8075
+	psi'	=	-7.8613
+	psi''	=	-5195.9872
+
+
+
+			Timestep 131
+
+Start time = 1.3000	End time = 1.3100
+
+Torque input is:
+	T	=	540.0387
+	SF	=	6.0051
+	RF	=	0.9746
+	LF	=	-156.7218
+
+At the last timestep, the solution is 
+	t	=	1.3100
+	phi	=	0.0302
+	phi'	=	-0.0755
+	phi''	=	-20.2102
+	theta	=	1.5669
+	theta'	=	-0.2354
+	theta''	=	-3.1875
+	alpha	=	1.1800
+	alpha'	=	15.9889
+	alpha''	=	1799.2190
+	psi	=	1.4169
+	psi'	=	-73.0323
+	psi''	=	-7601.8962
+
+
+
+			Timestep 132
+
+Start time = 1.3100	End time = 1.3200
+
+Torque input is:
+	T	=	443.2478
+	SF	=	6.0782
+	RF	=	1.7557
+	LF	=	-97.2186
+
+At the last timestep, the solution is 
+	t	=	1.3200
+	phi	=	0.0284
+	phi'	=	-0.3151
+	phi''	=	-27.4406
+	theta	=	1.5645
+	theta'	=	-0.2339
+	theta''	=	3.8388
+	alpha	=	1.4308
+	alpha'	=	35.9799
+	alpha''	=	2455.8573
+	psi	=	0.3089
+	psi'	=	-155.1606
+	psi''	=	-9838.0651
+
+
+
+			Timestep 133
+
+Start time = 1.3200	End time = 1.3300
+
+Torque input is:
+	T	=	131.0815
+	SF	=	5.7408
+	RF	=	2.5690
+	LF	=	24.1077
+
+At the last timestep, the solution is 
+	t	=	1.3300
+	phi	=	0.0241
+	phi'	=	-0.5309
+	phi''	=	-18.5016
+	theta	=	1.5625
+	theta'	=	-0.1462
+	theta''	=	11.5821
+	alpha	=	1.8190
+	alpha'	=	38.7402
+	alpha''	=	-496.5447
+	psi	=	-1.3584
+	psi'	=	-166.4208
+	psi''	=	2033.3077
+
+
+
+			Timestep 134
+
+Start time = 1.3300	End time = 1.3400
+
+Torque input is:
+	T	=	-361.7109
+	SF	=	4.9131
+	RF	=	3.0617
+	LF	=	179.7255
+
+At the last timestep, the solution is 
+	t	=	1.3400
+	phi	=	0.0183
+	phi'	=	-0.6145
+	phi''	=	-7.5993
+	theta	=	1.5616
+	theta'	=	-0.0472
+	theta''	=	9.3356
+	alpha	=	2.1072
+	alpha'	=	21.0839
+	alpha''	=	-1226.0927
+	psi	=	-2.6103
+	psi'	=	-91.9552
+	psi''	=	5453.7133
+
+
+
+			Timestep 135
+
+Start time = 1.3400	End time = 1.3500
+
+Torque input is:
+	T	=	-765.3740
+	SF	=	3.7740
+	RF	=	3.1062
+	LF	=	242.6397
+
+At the last timestep, the solution is 
+	t	=	1.3500
+	phi	=	0.0122
+	phi'	=	-0.6184
+	phi''	=	0.1091
+	theta	=	1.5614
+	theta'	=	0.0115
+	theta''	=	4.7464
+	alpha	=	2.2324
+	alpha'	=	5.1375
+	alpha''	=	-1339.8898
+	psi	=	-3.1343
+	psi'	=	-17.4634
+	psi''	=	6443.9717
+
+
+
+			Timestep 136
+
+Start time = 1.3500	End time = 1.3600
+
+Torque input is:
+	T	=	-959.0235
+	SF	=	2.5288
+	RF	=	2.9619
+	LF	=	239.4780
+
+At the last timestep, the solution is 
+	t	=	1.3600
+	phi	=	0.0062
+	phi'	=	-0.5662
+	phi''	=	6.0240
+	theta	=	1.5616
+	theta'	=	0.0216
+	theta''	=	-0.6786
+	alpha	=	2.2036
+	alpha'	=	-11.1758
+	alpha''	=	-1780.6527
+	psi	=	-2.9179
+	psi'	=	61.8562
+	psi''	=	8526.2282
+
+
+
+			Timestep 137
+
+Start time = 1.3600	End time = 1.3700
+
+Torque input is:
+	T	=	-924.2305
+	SF	=	1.3133
+	RF	=	2.8278
+	LF	=	191.1377
+
+At the last timestep, the solution is 
+	t	=	1.3700
+	phi	=	0.0010
+	phi'	=	-0.4636
+	phi''	=	13.2147
+	theta	=	1.5617
+	theta'	=	-0.0266
+	theta''	=	-8.1109
+	alpha	=	1.9875
+	alpha'	=	-34.9739
+	alpha''	=	-3374.0564
+	psi	=	-1.8138
+	psi'	=	170.1779
+	psi''	=	14622.1939
+
+
+
+			Timestep 138
+
+Start time = 1.3700	End time = 1.3800
+
+Torque input is:
+	T	=	-615.1216
+	SF	=	0.2343
+	RF	=	2.8816
+	LF	=	75.0309
+
+At the last timestep, the solution is 
+	t	=	1.3800
+	phi	=	-0.0028
+	phi'	=	-0.2936
+	phi''	=	16.8696
+	theta	=	1.5608
+	theta'	=	-0.1634
+	theta''	=	-18.1131
+	alpha	=	1.4703
+	alpha'	=	-67.5938
+	alpha''	=	-1579.8428
+	psi	=	0.5825
+	psi'	=	303.6585
+	psi''	=	6229.6421
+
+
+
+			Timestep 139
+
+Start time = 1.3800	End time = 1.3900
+
+Torque input is:
+	T	=	91.7826
+	SF	=	-0.5779
+	RF	=	3.4085
+	LF	=	-166.9218
+
+At the last timestep, the solution is 
+	t	=	1.3900
+	phi	=	-0.0055
+	phi'	=	-0.2400
+	phi''	=	8.6677
+	theta	=	1.5583
+	theta'	=	-0.3186
+	theta''	=	-12.9161
+	alpha	=	0.9266
+	alpha'	=	-43.1968
+	alpha''	=	1639.3520
+	psi	=	3.0713
+	psi'	=	199.4222
+	psi''	=	-7905.2690
+
+
+
+			Timestep 140
+
+Start time = 1.3900	End time = 1.3928
+
+Torque input is:
+	T	=	883.2671
+	SF	=	-1.1631
+	RF	=	4.6291
+	LF	=	-347.5389
+
+At the last timestep, the solution is 
+	t	=	1.3928
+	phi	=	-0.0062
+	phi'	=	-0.2377
+	phi''	=	1.4220
+	theta	=	1.5574
+	theta'	=	-0.3571
+	theta''	=	-13.2706
+	alpha	=	0.8162
+	alpha'	=	-36.1786
+	alpha''	=	2209.9782
+	psi	=	3.5772
+	psi'	=	164.2140
+	psi''	=	-11445.8613
+Unicycle has toppled at 1.3928 s. Ending run.
 
 
