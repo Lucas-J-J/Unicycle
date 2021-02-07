@@ -7,20 +7,20 @@ clc; clear all; close all; fclose('all');
 %start time should usually be zero
 t_start_global = 0;
 %longest possible time. Program will abort if unicycle ends before this
-t_end_global = 1.5;
+t_end_global = 2.5;
 %controller clock speed. Represents digital tick in controller.
 t_interval_global = 0.01;           % <change max step size in forward dynamics if changing this
 %control system delay time (seconds)
-delay_time = 0.01;
+delay_time = 0;
 
 %Initial torques
 T_init  = 0;
 SF_init = 0;
-RF_init = 0;
+RF_init = 80;
 LF_init = 0;
 
 %initial position
-init_global = [0.05 0 1.53 0 1.53 0 0.05 0]';
+init_global = [0 0 pi/2 0 pi/2 0 0 0]';
 % init format ["phi (yaw)","phi'","theta (roll)","theta'", "alpha (pitch)","alpha'","psi (wheel)","psi'"]
 
 %initial setpoint
@@ -117,9 +117,9 @@ run('internal/UnicycleDynamics.m')
 
     %%%%%%%%%%%%%%%INITIAL CONTROLLER INPUTS%%%%%%%%%%%%%%%%%%%%%%%%%
     % PID controller constants. Format = [phi theta alpha psi];
-    Kp = [3 40 40 40];
-    Kd = [1 4 4 1];
-    Ki = [1.5 2 2 2];
+    Kp = [3 131.6 40 40];
+    Kd = [1 150.7 8 1];
+    Ki = [1.5 28.73 2 2];
     
     %converting controller delay time to equivalent step sizes
     delay_steps = round(delay_time/t_interval_global);
@@ -131,10 +131,10 @@ run('internal/UnicycleDynamics.m')
 %     psi_error =   [0 0 0];
     
     % initializing torque response "delay" vectors
-    SF_delay = zeros(1,length(t_arr));
-    RF_delay = zeros(1,length(t_arr));
-    LF_delay = zeros(1,length(t_arr));
-    T_delay  = zeros(1,length(t_arr));
+    %SF_delay = zeros(1,length(t_arr));
+    %RF_delay = zeros(1,length(t_arr));
+    %LF_delay = zeros(1,length(t_arr));
+    %T_delay  = zeros(1,length(t_arr));
     
     %%%%%%%%%%%%%%%END CONTROLLER INPUTS%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -144,6 +144,8 @@ for t_step = 2:length(t_arr)-1
     t_start = t_arr(t_step);
     t_end = t_arr(t_step+1);
     t_interval = t_interval_global; %this assignment assumes constant interval
+    
+    
     
     %reading out.txt
     out = readmatrix(out_name);
@@ -161,6 +163,8 @@ for t_step = 2:length(t_arr)-1
     alpha = out(8:10);
     psi = out(11:13);
     pathXYZ = out(14:16);
+    
+    
     
     %%%%%%%%%%%%%%%%%%CONTROLLER LOOP PROGRAMMING HERE%%%%%%%%%%%%%%%%%%%%%%%%%%
     
@@ -181,6 +185,13 @@ for t_step = 2:length(t_arr)-1
     theta_error(1) = init_setpoint_global(2) - out(5);  
     alpha_error(1) = init_setpoint_global(3) - out(8); 
     psi_error(1) = init_setpoint_global(4) - out(11); 
+    
+    
+    %Recording angle outputs
+    PhiOutput(t_step) = out(2);
+    ThetaOutput(t_step) = out(5);
+    AlphaOutput(t_step) = out(8);
+    PsiOutput(t_step) = out(11);
     
     %derivative error
     if t_step ~= 2
@@ -213,6 +224,7 @@ for t_step = 2:length(t_arr)-1
     LF_delay(t_step) = (-alpha_error(1) * Kp(3)) + (-alpha_error(2) * Kd(3)) + (-alpha_error(3) * Ki(3));
     T_delay(t_step) = (-psi_error(1) * Kp(4)) + (-psi_error(2) * Kd(4)) + (-psi_error(3) * Ki(4));
     
+    
     % implementing actual torque response (based on delay time)
     if (t_step - delay_steps) > 2
     SF = SF_delay(t_step - delay_steps);
@@ -236,7 +248,15 @@ for t_step = 2:length(t_arr)-1
     run('internal/UnicycleDynamics.m')
     %out.txt will be overwritten; history.txt and log.txt will be appended
     %to
+    
+   
 end
+
+RFInput = RF_delay;
+LFInput = LF_delay;
+SFInput = SF_delay;
+TInput = T_delay;
+
 
 %% Basic plotting
 
@@ -248,6 +268,13 @@ theta = history(:, 5:7);
 alpha = history(:, 8:10);
 psi = history(:, 11:13);
 pathXYZ = history(:, 14:16);
+
+
+%ThetaOutput = theta(:,1).';
+%AlphaOutput = alpha(:,1);
+%plot(t,AlphaOutput)
+
+
 
 %plotting kinematics
 figure()
